@@ -1,0 +1,1684 @@
+State,Group,Obesity_Rate,Category
+Alaska,Less than H.S.,36.3,Education
+Alaska,H.S. or G.E.D.,33.0,Education
+Alaska,Some post-H.S.,37.4,Education
+Alaska,College graduate,30.6,Education
+Alabama,Less than H.S.,36.7,Education
+Alabama,H.S. or G.E.D.,39.9,Education
+Alabama,Some post-H.S.,41.3,Education
+Alabama,College graduate,35.9,Education
+Arkansas,Less than H.S.,37.6,Education
+Arkansas,H.S. or G.E.D.,40.1,Education
+Arkansas,Some post-H.S.,40.8,Education
+Arkansas,College graduate,35.3,Education
+Arizona,Less than H.S.,39.5,Education
+Arizona,H.S. or G.E.D.,35.2,Education
+Arizona,Some post-H.S.,36.5,Education
+Arizona,College graduate,25.7,Education
+California,Less than H.S.,39.9,Education
+California,H.S. or G.E.D.,31.9,Education
+California,Some post-H.S.,31.6,Education
+California,College graduate,20.5,Education
+Colorado,Less than H.S.,29.6,Education
+Colorado,H.S. or G.E.D.,28.7,Education
+Colorado,Some post-H.S.,28.7,Education
+Colorado,College graduate,19.5,Education
+Connecticut,Less than H.S.,39.6,Education
+Connecticut,H.S. or G.E.D.,35.7,Education
+Connecticut,Some post-H.S.,36.9,Education
+Connecticut,College graduate,24.7,Education
+District of Columbia,Less than H.S.,38.8,Education
+District of Columbia,H.S. or G.E.D.,34.7,Education
+District of Columbia,Some post-H.S.,30.3,Education
+District of Columbia,College graduate,20.5,Education
+Delaware,Less than H.S.,35.6,Education
+Delaware,H.S. or G.E.D.,38.3,Education
+Delaware,Some post-H.S.,40.0,Education
+Delaware,College graduate,32.5,Education
+Florida,Less than H.S.,34.0,Education
+Florida,H.S. or G.E.D.,33.2,Education
+Florida,Some post-H.S.,30.2,Education
+Florida,College graduate,25.0,Education
+Georgia,Less than H.S.,42.6,Education
+Georgia,H.S. or G.E.D.,37.5,Education
+Georgia,Some post-H.S.,36.5,Education
+Georgia,College graduate,29.3,Education
+Hawaii,Less than H.S.,26.7,Education
+Hawaii,H.S. or G.E.D.,31.9,Education
+Hawaii,Some post-H.S.,29.9,Education
+Hawaii,College graduate,20.0,Education
+Iowa,Less than H.S.,31.2,Education
+Iowa,H.S. or G.E.D.,36.8,Education
+Iowa,Some post-H.S.,38.7,Education
+Iowa,College graduate,35.4,Education
+Idaho,Less than H.S.,36.4,Education
+Idaho,H.S. or G.E.D.,34.5,Education
+Idaho,Some post-H.S.,35.1,Education
+Idaho,College graduate,27.1,Education
+Illinois,Less than H.S.,39.3,Education
+Illinois,H.S. or G.E.D.,34.9,Education
+Illinois,Some post-H.S.,38.5,Education
+Illinois,College graduate,28.6,Education
+Indiana,Less than H.S.,34.1,Education
+Indiana,H.S. or G.E.D.,39.3,Education
+Indiana,Some post-H.S.,41.2,Education
+Indiana,College graduate,35.8,Education
+Kansas,Less than H.S.,38.9,Education
+Kansas,H.S. or G.E.D.,40.2,Education
+Kansas,Some post-H.S.,39.3,Education
+Kansas,College graduate,33.1,Education
+Kentucky,Less than H.S.,35.6,Education
+Kentucky,H.S. or G.E.D.,38.6,Education
+Kentucky,Some post-H.S.,40.0,Education
+Kentucky,College graduate,32.8,Education
+Louisiana,Less than H.S.,43.6,Education
+Louisiana,H.S. or G.E.D.,41.5,Education
+Louisiana,Some post-H.S.,42.3,Education
+Louisiana,College graduate,29.9,Education
+Massachusetts,Less than H.S.,31.4,Education
+Massachusetts,H.S. or G.E.D.,30.6,Education
+Massachusetts,Some post-H.S.,28.6,Education
+Massachusetts,College graduate,23.4,Education
+Maryland,Less than H.S.,39.2,Education
+Maryland,H.S. or G.E.D.,34.9,Education
+Maryland,Some post-H.S.,35.3,Education
+Maryland,College graduate,28.0,Education
+Maine,Less than H.S.,32.9,Education
+Maine,H.S. or G.E.D.,36.9,Education
+Maine,Some post-H.S.,35.2,Education
+Maine,College graduate,28.1,Education
+Michigan,Less than H.S.,41.6,Education
+Michigan,H.S. or G.E.D.,37.2,Education
+Michigan,Some post-H.S.,39.0,Education
+Michigan,College graduate,30.5,Education
+Minnesota,Less than H.S.,33.0,Education
+Minnesota,H.S. or G.E.D.,33.7,Education
+Minnesota,Some post-H.S.,35.6,Education
+Minnesota,College graduate,28.4,Education
+Missouri,Less than H.S.,33.5,Education
+Missouri,H.S. or G.E.D.,37.2,Education
+Missouri,Some post-H.S.,36.4,Education
+Missouri,College graduate,30.3,Education
+Mississippi,Less than H.S.,47.2,Education
+Mississippi,H.S. or G.E.D.,39.1,Education
+Mississippi,Some post-H.S.,41.3,Education
+Mississippi,College graduate,37.0,Education
+Montana,Less than H.S.,33.1,Education
+Montana,H.S. or G.E.D.,33.3,Education
+Montana,Some post-H.S.,33.7,Education
+Montana,College graduate,25.6,Education
+North Carolina,Less than H.S.,37.2,Education
+North Carolina,H.S. or G.E.D.,34.8,Education
+North Carolina,Some post-H.S.,36.9,Education
+North Carolina,College graduate,31.1,Education
+North Dakota,Less than H.S.,32.3,Education
+North Dakota,H.S. or G.E.D.,36.9,Education
+North Dakota,Some post-H.S.,39.2,Education
+North Dakota,College graduate,35.0,Education
+Nebraska,Less than H.S.,43.3,Education
+Nebraska,H.S. or G.E.D.,37.6,Education
+Nebraska,Some post-H.S.,39.6,Education
+Nebraska,College graduate,34.2,Education
+New Hampshire,Less than H.S.,37.3,Education
+New Hampshire,H.S. or G.E.D.,34.1,Education
+New Hampshire,Some post-H.S.,33.9,Education
+New Hampshire,College graduate,25.5,Education
+New Jersey,Less than H.S.,30.8,Education
+New Jersey,H.S. or G.E.D.,30.7,Education
+New Jersey,Some post-H.S.,32.4,Education
+New Jersey,College graduate,22.0,Education
+New Mexico,Less than H.S.,41.1,Education
+New Mexico,H.S. or G.E.D.,36.1,Education
+New Mexico,Some post-H.S.,38.5,Education
+New Mexico,College graduate,25.4,Education
+Nevada,Less than H.S.,40.4,Education
+Nevada,H.S. or G.E.D.,35.9,Education
+Nevada,Some post-H.S.,34.9,Education
+Nevada,College graduate,28.6,Education
+New York,Less than H.S.,35.3,Education
+New York,H.S. or G.E.D.,31.9,Education
+New York,Some post-H.S.,33.5,Education
+New York,College graduate,23.5,Education
+Ohio,Less than H.S.,34.2,Education
+Ohio,H.S. or G.E.D.,39.3,Education
+Ohio,Some post-H.S.,39.6,Education
+Ohio,College graduate,32.2,Education
+Oklahoma,Less than H.S.,37.2,Education
+Oklahoma,H.S. or G.E.D.,35.6,Education
+Oklahoma,Some post-H.S.,40.3,Education
+Oklahoma,College graduate,33.7,Education
+Oregon,Less than H.S.,40.3,Education
+Oregon,H.S. or G.E.D.,35.5,Education
+Oregon,Some post-H.S.,36.5,Education
+Oregon,College graduate,27.7,Education
+Pennsylvania,Less than H.S.,35.8,Education
+Pennsylvania,H.S. or G.E.D.,36.2,Education
+Pennsylvania,Some post-H.S.,38.1,Education
+Pennsylvania,College graduate,28.3,Education
+Rhode Island,Less than H.S.,41.1,Education
+Rhode Island,H.S. or G.E.D.,32.9,Education
+Rhode Island,Some post-H.S.,33.1,Education
+Rhode Island,College graduate,25.3,Education
+South Carolina,Less than H.S.,36.2,Education
+South Carolina,H.S. or G.E.D.,37.2,Education
+South Carolina,Some post-H.S.,34.7,Education
+South Carolina,College graduate,31.4,Education
+South Dakota,Less than H.S.,39.8,Education
+South Dakota,H.S. or G.E.D.,40.6,Education
+South Dakota,Some post-H.S.,33.9,Education
+South Dakota,College graduate,36.1,Education
+Texas,Less than H.S.,39.6,Education
+Texas,H.S. or G.E.D.,37.1,Education
+Texas,Some post-H.S.,36.7,Education
+Texas,College graduate,31.7,Education
+Utah,Less than H.S.,34.8,Education
+Utah,H.S. or G.E.D.,30.6,Education
+Utah,Some post-H.S.,32.7,Education
+Utah,College graduate,28.8,Education
+Virginia,Less than H.S.,39.8,Education
+Virginia,H.S. or G.E.D.,33.5,Education
+Virginia,Some post-H.S.,36.1,Education
+Virginia,College graduate,27.2,Education
+Virgin Islands,Less than H.S.,,Education
+Virgin Islands,H.S. or G.E.D.,37.1,Education
+Virgin Islands,Some post-H.S.,46.1,Education
+Virgin Islands,College graduate,38.5,Education
+Vermont,Less than H.S.,33.2,Education
+Vermont,H.S. or G.E.D.,33.8,Education
+Vermont,Some post-H.S.,33.5,Education
+Vermont,College graduate,21.5,Education
+Washington,Less than H.S.,34.4,Education
+Washington,H.S. or G.E.D.,35.2,Education
+Washington,Some post-H.S.,35.3,Education
+Washington,College graduate,25.1,Education
+Wisconsin,Less than H.S.,36.3,Education
+Wisconsin,H.S. or G.E.D.,36.8,Education
+Wisconsin,Some post-H.S.,41.4,Education
+Wisconsin,College graduate,34.0,Education
+West Virginia,Less than H.S.,39.9,Education
+West Virginia,H.S. or G.E.D.,42.4,Education
+West Virginia,Some post-H.S.,45.1,Education
+West Virginia,College graduate,35.7,Education
+Wyoming,Less than H.S.,33.3,Education
+Wyoming,H.S. or G.E.D.,33.3,Education
+Wyoming,Some post-H.S.,37.0,Education
+Wyoming,College graduate,25.4,Education
+Alaska,Less than H.S.,32.9,Education
+Alaska,H.S. or G.E.D.,35.8,Education
+Alaska,Some post-H.S.,38.0,Education
+Alaska,College graduate,31.9,Education
+Alabama,Less than H.S.,38.0,Education
+Alabama,H.S. or G.E.D.,39.4,Education
+Alabama,Some post-H.S.,42.9,Education
+Alabama,College graduate,35.0,Education
+Arkansas,Less than H.S.,45.8,Education
+Arkansas,H.S. or G.E.D.,39.7,Education
+Arkansas,Some post-H.S.,42.5,Education
+Arkansas,College graduate,33.9,Education
+Arizona,Less than H.S.,35.9,Education
+Arizona,H.S. or G.E.D.,30.0,Education
+Arizona,Some post-H.S.,36.2,Education
+Arizona,College graduate,26.8,Education
+California,Less than H.S.,33.8,Education
+California,H.S. or G.E.D.,32.0,Education
+California,Some post-H.S.,30.8,Education
+California,College graduate,19.4,Education
+Colorado,Less than H.S.,27.1,Education
+Colorado,H.S. or G.E.D.,26.7,Education
+Colorado,Some post-H.S.,29.3,Education
+Colorado,College graduate,20.2,Education
+Connecticut,Less than H.S.,32.4,Education
+Connecticut,H.S. or G.E.D.,31.8,Education
+Connecticut,Some post-H.S.,33.5,Education
+Connecticut,College graduate,24.0,Education
+District of Columbia,Less than H.S.,30.2,Education
+District of Columbia,H.S. or G.E.D.,32.8,Education
+District of Columbia,Some post-H.S.,27.1,Education
+District of Columbia,College graduate,19.4,Education
+Delaware,Less than H.S.,28.4,Education
+Delaware,H.S. or G.E.D.,40.8,Education
+Delaware,Some post-H.S.,41.6,Education
+Delaware,College graduate,27.2,Education
+Florida,Less than H.S.,32.9,Education
+Florida,H.S. or G.E.D.,29.7,Education
+Florida,Some post-H.S.,34.1,Education
+Florida,College graduate,25.6,Education
+Georgia,Less than H.S.,38.1,Education
+Georgia,H.S. or G.E.D.,36.8,Education
+Georgia,Some post-H.S.,37.9,Education
+Georgia,College graduate,29.3,Education
+Hawaii,Less than H.S.,30.6,Education
+Hawaii,H.S. or G.E.D.,30.9,Education
+Hawaii,Some post-H.S.,27.0,Education
+Hawaii,College graduate,20.2,Education
+Iowa,Less than H.S.,37.8,Education
+Iowa,H.S. or G.E.D.,39.0,Education
+Iowa,Some post-H.S.,39.6,Education
+Iowa,College graduate,34.4,Education
+Idaho,Less than H.S.,31.9,Education
+Idaho,H.S. or G.E.D.,32.2,Education
+Idaho,Some post-H.S.,33.4,Education
+Idaho,College graduate,25.9,Education
+Illinois,Less than H.S.,39.2,Education
+Illinois,H.S. or G.E.D.,39.0,Education
+Illinois,Some post-H.S.,39.3,Education
+Illinois,College graduate,29.8,Education
+Indiana,Less than H.S.,41.6,Education
+Indiana,H.S. or G.E.D.,38.0,Education
+Indiana,Some post-H.S.,39.6,Education
+Indiana,College graduate,34.3,Education
+Kansas,Less than H.S.,35.3,Education
+Kansas,H.S. or G.E.D.,37.5,Education
+Kansas,Some post-H.S.,38.6,Education
+Kansas,College graduate,31.8,Education
+Louisiana,Less than H.S.,45.6,Education
+Louisiana,H.S. or G.E.D.,39.1,Education
+Louisiana,Some post-H.S.,41.5,Education
+Louisiana,College graduate,35.9,Education
+Massachusetts,Less than H.S.,36.0,Education
+Massachusetts,H.S. or G.E.D.,31.9,Education
+Massachusetts,Some post-H.S.,28.5,Education
+Massachusetts,College graduate,22.2,Education
+Maryland,Less than H.S.,40.1,Education
+Maryland,H.S. or G.E.D.,36.0,Education
+Maryland,Some post-H.S.,36.8,Education
+Maryland,College graduate,29.8,Education
+Maine,Less than H.S.,34.8,Education
+Maine,H.S. or G.E.D.,35.3,Education
+Maine,Some post-H.S.,36.8,Education
+Maine,College graduate,25.3,Education
+Michigan,Less than H.S.,33.7,Education
+Michigan,H.S. or G.E.D.,36.4,Education
+Michigan,Some post-H.S.,38.4,Education
+Michigan,College graduate,31.3,Education
+Minnesota,Less than H.S.,34.2,Education
+Minnesota,H.S. or G.E.D.,35.0,Education
+Minnesota,Some post-H.S.,37.4,Education
+Minnesota,College graduate,28.1,Education
+Missouri,Less than H.S.,37.2,Education
+Missouri,H.S. or G.E.D.,34.6,Education
+Missouri,Some post-H.S.,38.4,Education
+Missouri,College graduate,32.1,Education
+Mississippi,Less than H.S.,48.6,Education
+Mississippi,H.S. or G.E.D.,37.8,Education
+Mississippi,Some post-H.S.,40.6,Education
+Mississippi,College graduate,36.4,Education
+Montana,Less than H.S.,30.3,Education
+Montana,H.S. or G.E.D.,34.0,Education
+Montana,Some post-H.S.,32.5,Education
+Montana,College graduate,24.8,Education
+North Carolina,Less than H.S.,42.4,Education
+North Carolina,H.S. or G.E.D.,31.4,Education
+North Carolina,Some post-H.S.,36.6,Education
+North Carolina,College graduate,31.0,Education
+North Dakota,Less than H.S.,36.5,Education
+North Dakota,H.S. or G.E.D.,34.9,Education
+North Dakota,Some post-H.S.,38.2,Education
+North Dakota,College graduate,32.6,Education
+Nebraska,Less than H.S.,37.6,Education
+Nebraska,H.S. or G.E.D.,36.6,Education
+Nebraska,Some post-H.S.,38.7,Education
+Nebraska,College graduate,34.1,Education
+New Hampshire,Less than H.S.,46.7,Education
+New Hampshire,H.S. or G.E.D.,35.4,Education
+New Hampshire,Some post-H.S.,34.7,Education
+New Hampshire,College graduate,27.0,Education
+New Jersey,Less than H.S.,36.0,Education
+New Jersey,H.S. or G.E.D.,32.1,Education
+New Jersey,Some post-H.S.,29.5,Education
+New Jersey,College graduate,24.8,Education
+New Mexico,Less than H.S.,45.5,Education
+New Mexico,H.S. or G.E.D.,36.1,Education
+New Mexico,Some post-H.S.,35.2,Education
+New Mexico,College graduate,29.4,Education
+Nevada,Less than H.S.,28.3,Education
+Nevada,H.S. or G.E.D.,30.6,Education
+Nevada,Some post-H.S.,34.6,Education
+Nevada,College graduate,26.9,Education
+New York,Less than H.S.,30.8,Education
+New York,H.S. or G.E.D.,31.4,Education
+New York,Some post-H.S.,31.7,Education
+New York,College graduate,22.2,Education
+Ohio,Less than H.S.,34.2,Education
+Ohio,H.S. or G.E.D.,37.6,Education
+Ohio,Some post-H.S.,40.3,Education
+Ohio,College graduate,31.6,Education
+Oklahoma,Less than H.S.,41.8,Education
+Oklahoma,H.S. or G.E.D.,38.8,Education
+Oklahoma,Some post-H.S.,42.3,Education
+Oklahoma,College graduate,32.8,Education
+Oregon,Less than H.S.,46.3,Education
+Oregon,H.S. or G.E.D.,34.7,Education
+Oregon,Some post-H.S.,35.7,Education
+Oregon,College graduate,27.5,Education
+Rhode Island,Less than H.S.,37.6,Education
+Rhode Island,H.S. or G.E.D.,35.2,Education
+Rhode Island,Some post-H.S.,31.1,Education
+Rhode Island,College graduate,27.1,Education
+South Carolina,Less than H.S.,39.6,Education
+South Carolina,H.S. or G.E.D.,35.8,Education
+South Carolina,Some post-H.S.,40.2,Education
+South Carolina,College graduate,29.6,Education
+South Dakota,Less than H.S.,29.9,Education
+South Dakota,H.S. or G.E.D.,34.3,Education
+South Dakota,Some post-H.S.,38.8,Education
+South Dakota,College graduate,36.7,Education
+Tennessee,Less than H.S.,35.6,Education
+Tennessee,H.S. or G.E.D.,38.8,Education
+Tennessee,Some post-H.S.,40.8,Education
+Tennessee,College graduate,33.2,Education
+Texas,Less than H.S.,38.5,Education
+Texas,H.S. or G.E.D.,36.8,Education
+Texas,Some post-H.S.,35.6,Education
+Texas,College graduate,29.4,Education
+Utah,Less than H.S.,33.6,Education
+Utah,H.S. or G.E.D.,30.4,Education
+Utah,Some post-H.S.,32.5,Education
+Utah,College graduate,26.6,Education
+Virginia,Less than H.S.,36.6,Education
+Virginia,H.S. or G.E.D.,36.9,Education
+Virginia,Some post-H.S.,37.6,Education
+Virginia,College graduate,29.5,Education
+Virgin Islands,Less than H.S.,27.2,Education
+Virgin Islands,H.S. or G.E.D.,36.2,Education
+Virgin Islands,Some post-H.S.,30.2,Education
+Virgin Islands,College graduate,31.4,Education
+Vermont,Less than H.S.,35.8,Education
+Vermont,H.S. or G.E.D.,32.3,Education
+Vermont,Some post-H.S.,30.8,Education
+Vermont,College graduate,23.5,Education
+Washington,Less than H.S.,37.8,Education
+Washington,H.S. or G.E.D.,33.2,Education
+Washington,Some post-H.S.,33.9,Education
+Washington,College graduate,24.2,Education
+Wisconsin,Less than H.S.,37.9,Education
+Wisconsin,H.S. or G.E.D.,37.0,Education
+Wisconsin,Some post-H.S.,36.9,Education
+Wisconsin,College graduate,33.5,Education
+West Virginia,Less than H.S.,38.0,Education
+West Virginia,H.S. or G.E.D.,43.6,Education
+West Virginia,Some post-H.S.,42.7,Education
+West Virginia,College graduate,36.3,Education
+Wyoming,Less than H.S.,38.1,Education
+Wyoming,H.S. or G.E.D.,35.7,Education
+Wyoming,Some post-H.S.,34.9,Education
+Wyoming,College graduate,27.4,Education
+Alaska,Less than H.S.,33.4,Education
+Alaska,H.S. or G.E.D.,34.6,Education
+Alaska,Some post-H.S.,36.0,Education
+Alaska,College graduate,24.1,Education
+Alabama,Less than H.S.,32.6,Education
+Alabama,H.S. or G.E.D.,40.0,Education
+Alabama,Some post-H.S.,40.5,Education
+Alabama,College graduate,36.3,Education
+Arkansas,Less than H.S.,30.4,Education
+Arkansas,H.S. or G.E.D.,39.1,Education
+Arkansas,Some post-H.S.,39.3,Education
+Arkansas,College graduate,36.1,Education
+Arizona,Less than H.S.,38.3,Education
+Arizona,H.S. or G.E.D.,33.5,Education
+Arizona,Some post-H.S.,34.9,Education
+Arizona,College graduate,29.0,Education
+California,Less than H.S.,36.7,Education
+California,H.S. or G.E.D.,29.0,Education
+California,Some post-H.S.,32.0,Education
+California,College graduate,20.2,Education
+Colorado,Less than H.S.,29.4,Education
+Colorado,H.S. or G.E.D.,27.8,Education
+Colorado,Some post-H.S.,28.2,Education
+Colorado,College graduate,20.2,Education
+Connecticut,Less than H.S.,38.5,Education
+Connecticut,H.S. or G.E.D.,33.8,Education
+Connecticut,Some post-H.S.,34.8,Education
+Connecticut,College graduate,23.6,Education
+District of Columbia,Less than H.S.,35.8,Education
+District of Columbia,H.S. or G.E.D.,41.3,Education
+District of Columbia,Some post-H.S.,28.6,Education
+District of Columbia,College graduate,17.4,Education
+Delaware,Less than H.S.,46.5,Education
+Delaware,H.S. or G.E.D.,37.3,Education
+Delaware,Some post-H.S.,38.3,Education
+Delaware,College graduate,35.6,Education
+Florida,Less than H.S.,38.4,Education
+Florida,H.S. or G.E.D.,34.1,Education
+Florida,Some post-H.S.,32.9,Education
+Florida,College graduate,25.1,Education
+Georgia,Less than H.S.,40.9,Education
+Georgia,H.S. or G.E.D.,40.0,Education
+Georgia,Some post-H.S.,39.3,Education
+Georgia,College graduate,30.3,Education
+Hawaii,Less than H.S.,34.5,Education
+Hawaii,H.S. or G.E.D.,29.6,Education
+Hawaii,Some post-H.S.,26.5,Education
+Hawaii,College graduate,19.7,Education
+Iowa,Less than H.S.,37.6,Education
+Iowa,H.S. or G.E.D.,39.2,Education
+Iowa,Some post-H.S.,40.0,Education
+Iowa,College graduate,31.9,Education
+Idaho,Less than H.S.,40.6,Education
+Idaho,H.S. or G.E.D.,33.4,Education
+Idaho,Some post-H.S.,35.1,Education
+Idaho,College graduate,28.1,Education
+Illinois,Less than H.S.,40.5,Education
+Illinois,H.S. or G.E.D.,37.3,Education
+Illinois,Some post-H.S.,34.1,Education
+Illinois,College graduate,27.4,Education
+Indiana,Less than H.S.,40.9,Education
+Indiana,H.S. or G.E.D.,37.7,Education
+Indiana,Some post-H.S.,38.8,Education
+Indiana,College graduate,34.6,Education
+Kansas,Less than H.S.,35.0,Education
+Kansas,H.S. or G.E.D.,38.6,Education
+Kansas,Some post-H.S.,37.3,Education
+Kansas,College graduate,31.6,Education
+Kentucky,Less than H.S.,34.5,Education
+Kentucky,H.S. or G.E.D.,40.9,Education
+Kentucky,Some post-H.S.,40.1,Education
+Kentucky,College graduate,31.6,Education
+Louisiana,Less than H.S.,44.7,Education
+Louisiana,H.S. or G.E.D.,42.1,Education
+Louisiana,Some post-H.S.,41.2,Education
+Louisiana,College graduate,33.0,Education
+Massachusetts,Less than H.S.,30.2,Education
+Massachusetts,H.S. or G.E.D.,31.5,Education
+Massachusetts,Some post-H.S.,30.0,Education
+Massachusetts,College graduate,22.4,Education
+Maryland,Less than H.S.,35.8,Education
+Maryland,H.S. or G.E.D.,37.6,Education
+Maryland,Some post-H.S.,37.1,Education
+Maryland,College graduate,26.9,Education
+Maine,Less than H.S.,32.1,Education
+Maine,H.S. or G.E.D.,34.9,Education
+Maine,Some post-H.S.,37.0,Education
+Maine,College graduate,27.6,Education
+Michigan,Less than H.S.,36.5,Education
+Michigan,H.S. or G.E.D.,35.6,Education
+Michigan,Some post-H.S.,37.0,Education
+Michigan,College graduate,29.7,Education
+Minnesota,Less than H.S.,40.4,Education
+Minnesota,H.S. or G.E.D.,33.8,Education
+Minnesota,Some post-H.S.,36.6,Education
+Minnesota,College graduate,29.4,Education
+Missouri,Less than H.S.,41.8,Education
+Missouri,H.S. or G.E.D.,34.4,Education
+Missouri,Some post-H.S.,39.4,Education
+Missouri,College graduate,33.5,Education
+Mississippi,Less than H.S.,36.0,Education
+Mississippi,H.S. or G.E.D.,38.7,Education
+Mississippi,Some post-H.S.,41.8,Education
+Mississippi,College graduate,39.3,Education
+Montana,Less than H.S.,25.9,Education
+Montana,H.S. or G.E.D.,31.9,Education
+Montana,Some post-H.S.,35.1,Education
+Montana,College graduate,24.9,Education
+North Carolina,Less than H.S.,34.8,Education
+North Carolina,H.S. or G.E.D.,33.4,Education
+North Carolina,Some post-H.S.,41.0,Education
+North Carolina,College graduate,27.2,Education
+North Dakota,Less than H.S.,34.6,Education
+North Dakota,H.S. or G.E.D.,36.0,Education
+North Dakota,Some post-H.S.,38.2,Education
+North Dakota,College graduate,31.3,Education
+Nebraska,Less than H.S.,32.6,Education
+Nebraska,H.S. or G.E.D.,37.7,Education
+Nebraska,Some post-H.S.,38.5,Education
+Nebraska,College graduate,30.2,Education
+New Hampshire,Less than H.S.,36.3,Education
+New Hampshire,H.S. or G.E.D.,32.1,Education
+New Hampshire,Some post-H.S.,33.5,Education
+New Hampshire,College graduate,25.3,Education
+New Jersey,Less than H.S.,33.7,Education
+New Jersey,H.S. or G.E.D.,31.2,Education
+New Jersey,Some post-H.S.,32.6,Education
+New Jersey,College graduate,24.4,Education
+New Mexico,Less than H.S.,36.6,Education
+New Mexico,H.S. or G.E.D.,35.4,Education
+New Mexico,Some post-H.S.,34.8,Education
+New Mexico,College graduate,24.0,Education
+Nevada,Less than H.S.,34.6,Education
+Nevada,H.S. or G.E.D.,36.4,Education
+Nevada,Some post-H.S.,35.8,Education
+Nevada,College graduate,27.1,Education
+New York,Less than H.S.,34.5,Education
+New York,H.S. or G.E.D.,33.8,Education
+New York,Some post-H.S.,33.2,Education
+New York,College graduate,23.9,Education
+Ohio,Less than H.S.,37.8,Education
+Ohio,H.S. or G.E.D.,40.0,Education
+Ohio,Some post-H.S.,40.8,Education
+Ohio,College graduate,33.1,Education
+Oklahoma,Less than H.S.,38.5,Education
+Oklahoma,H.S. or G.E.D.,40.9,Education
+Oklahoma,Some post-H.S.,42.4,Education
+Oklahoma,College graduate,36.4,Education
+Oregon,Less than H.S.,30.8,Education
+Oregon,H.S. or G.E.D.,34.0,Education
+Oregon,Some post-H.S.,34.3,Education
+Oregon,College graduate,25.0,Education
+Pennsylvania,Less than H.S.,45.5,Education
+Pennsylvania,H.S. or G.E.D.,36.1,Education
+Pennsylvania,Some post-H.S.,34.8,Education
+Pennsylvania,College graduate,25.5,Education
+Rhode Island,Less than H.S.,34.9,Education
+Rhode Island,H.S. or G.E.D.,33.4,Education
+Rhode Island,Some post-H.S.,33.8,Education
+Rhode Island,College graduate,24.4,Education
+South Carolina,Less than H.S.,35.4,Education
+South Carolina,H.S. or G.E.D.,35.9,Education
+South Carolina,Some post-H.S.,36.7,Education
+South Carolina,College graduate,32.3,Education
+South Dakota,Less than H.S.,33.4,Education
+South Dakota,H.S. or G.E.D.,35.0,Education
+South Dakota,Some post-H.S.,44.3,Education
+South Dakota,College graduate,30.5,Education
+Tennessee,Less than H.S.,40.7,Education
+Tennessee,H.S. or G.E.D.,42.9,Education
+Tennessee,Some post-H.S.,39.3,Education
+Tennessee,College graduate,32.5,Education
+Texas,Less than H.S.,40.1,Education
+Texas,H.S. or G.E.D.,38.0,Education
+Texas,Some post-H.S.,35.7,Education
+Texas,College graduate,31.0,Education
+Utah,Less than H.S.,30.8,Education
+Utah,H.S. or G.E.D.,31.3,Education
+Utah,Some post-H.S.,34.0,Education
+Utah,College graduate,27.7,Education
+Virginia,Less than H.S.,40.8,Education
+Virginia,H.S. or G.E.D.,36.4,Education
+Virginia,Some post-H.S.,39.0,Education
+Virginia,College graduate,30.0,Education
+Virgin Islands,Less than H.S.,20.3,Education
+Virgin Islands,H.S. or G.E.D.,41.0,Education
+Virgin Islands,Some post-H.S.,22.8,Education
+Virgin Islands,College graduate,32.3,Education
+Vermont,Less than H.S.,37.0,Education
+Vermont,H.S. or G.E.D.,31.4,Education
+Vermont,Some post-H.S.,29.5,Education
+Vermont,College graduate,19.7,Education
+Washington,Less than H.S.,35.9,Education
+Washington,H.S. or G.E.D.,35.2,Education
+Washington,Some post-H.S.,35.9,Education
+Washington,College graduate,24.2,Education
+Wisconsin,Less than H.S.,40.0,Education
+Wisconsin,H.S. or G.E.D.,40.2,Education
+Wisconsin,Some post-H.S.,40.0,Education
+Wisconsin,College graduate,31.7,Education
+West Virginia,Less than H.S.,39.6,Education
+West Virginia,H.S. or G.E.D.,42.4,Education
+West Virginia,Some post-H.S.,42.6,Education
+West Virginia,College graduate,37.0,Education
+Wyoming,Less than H.S.,41.0,Education
+Wyoming,H.S. or G.E.D.,35.7,Education
+Wyoming,Some post-H.S.,37.2,Education
+Wyoming,College graduate,26.4,Education
+Alaska,"Less than $15,000",33.3,Income
+Alaska,"$15,000-$24,999",34.4,Income
+Alaska,"$25,000-$34,999",39.1,Income
+Alaska,"$35,000-$49,999",30.4,Income
+Alaska,"$50,000-$99,999",33.3,Income
+Alaska,"$100,000-$199,999",38.3,Income
+Alaska,"$200,000+",36.6,Income
+Alabama,"Less than $15,000",41.4,Income
+Alabama,"$15,000-$24,999",38.8,Income
+Alabama,"$25,000-$34,999",45.9,Income
+Alabama,"$35,000-$49,999",41.4,Income
+Alabama,"$50,000-$99,999",41.9,Income
+Alabama,"$100,000-$199,999",37.2,Income
+Alabama,"$200,000+",28.1,Income
+Arkansas,"Less than $15,000",39.6,Income
+Arkansas,"$15,000-$24,999",39.9,Income
+Arkansas,"$25,000-$34,999",39.4,Income
+Arkansas,"$35,000-$49,999",43.3,Income
+Arkansas,"$50,000-$99,999",39.7,Income
+Arkansas,"$100,000-$199,999",38.7,Income
+Arkansas,"$200,000+",29.2,Income
+Arizona,"Less than $15,000",36.0,Income
+Arizona,"$15,000-$24,999",37.0,Income
+Arizona,"$25,000-$34,999",39.8,Income
+Arizona,"$35,000-$49,999",35.6,Income
+Arizona,"$50,000-$99,999",35.3,Income
+Arizona,"$100,000-$199,999",34.6,Income
+Arizona,"$200,000+",23.7,Income
+California,"Less than $15,000",32.4,Income
+California,"$15,000-$24,999",31.2,Income
+California,"$25,000-$34,999",36.6,Income
+California,"$35,000-$49,999",30.4,Income
+California,"$50,000-$99,999",32.0,Income
+California,"$100,000-$199,999",28.4,Income
+California,"$200,000+",19.9,Income
+Colorado,"Less than $15,000",33.2,Income
+Colorado,"$15,000-$24,999",28.4,Income
+Colorado,"$25,000-$34,999",29.8,Income
+Colorado,"$35,000-$49,999",28.0,Income
+Colorado,"$50,000-$99,999",26.2,Income
+Colorado,"$100,000-$199,999",24.3,Income
+Colorado,"$200,000+",18.9,Income
+Connecticut,"Less than $15,000",37.5,Income
+Connecticut,"$15,000-$24,999",39.6,Income
+Connecticut,"$25,000-$34,999",38.2,Income
+Connecticut,"$35,000-$49,999",34.4,Income
+Connecticut,"$50,000-$99,999",36.6,Income
+Connecticut,"$100,000-$199,999",31.2,Income
+Connecticut,"$200,000+",22.7,Income
+District of Columbia,"Less than $15,000",28.8,Income
+District of Columbia,"$15,000-$24,999",34.1,Income
+District of Columbia,"$25,000-$34,999",31.1,Income
+District of Columbia,"$35,000-$49,999",27.9,Income
+District of Columbia,"$50,000-$99,999",30.6,Income
+District of Columbia,"$100,000-$199,999",22.9,Income
+District of Columbia,"$200,000+",16.1,Income
+Delaware,"Less than $15,000",32.8,Income
+Delaware,"$15,000-$24,999",45.0,Income
+Delaware,"$25,000-$34,999",33.3,Income
+Delaware,"$35,000-$49,999",36.2,Income
+Delaware,"$50,000-$99,999",40.1,Income
+Delaware,"$100,000-$199,999",36.6,Income
+Delaware,"$200,000+",36.0,Income
+Florida,"Less than $15,000",34.1,Income
+Florida,"$15,000-$24,999",34.7,Income
+Florida,"$25,000-$34,999",35.6,Income
+Florida,"$35,000-$49,999",29.8,Income
+Florida,"$50,000-$99,999",28.3,Income
+Florida,"$100,000-$199,999",30.7,Income
+Florida,"$200,000+",19.3,Income
+Georgia,"Less than $15,000",36.0,Income
+Georgia,"$15,000-$24,999",41.6,Income
+Georgia,"$25,000-$34,999",37.6,Income
+Georgia,"$35,000-$49,999",37.1,Income
+Georgia,"$50,000-$99,999",38.2,Income
+Georgia,"$100,000-$199,999",33.8,Income
+Georgia,"$200,000+",23.7,Income
+Hawaii,"Less than $15,000",36.2,Income
+Hawaii,"$15,000-$24,999",25.0,Income
+Hawaii,"$25,000-$34,999",26.5,Income
+Hawaii,"$35,000-$49,999",27.9,Income
+Hawaii,"$50,000-$99,999",28.2,Income
+Hawaii,"$100,000-$199,999",28.7,Income
+Hawaii,"$200,000+",21.9,Income
+Iowa,"Less than $15,000",42.1,Income
+Iowa,"$15,000-$24,999",40.6,Income
+Iowa,"$25,000-$34,999",40.7,Income
+Iowa,"$35,000-$49,999",38.9,Income
+Iowa,"$50,000-$99,999",37.0,Income
+Iowa,"$100,000-$199,999",38.2,Income
+Iowa,"$200,000+",25.1,Income
+Idaho,"Less than $15,000",41.9,Income
+Idaho,"$15,000-$24,999",32.1,Income
+Idaho,"$25,000-$34,999",41.6,Income
+Idaho,"$35,000-$49,999",32.9,Income
+Idaho,"$50,000-$99,999",34.8,Income
+Idaho,"$100,000-$199,999",32.8,Income
+Idaho,"$200,000+",16.8,Income
+Illinois,"Less than $15,000",38.1,Income
+Illinois,"$15,000-$24,999",38.1,Income
+Illinois,"$25,000-$34,999",36.5,Income
+Illinois,"$35,000-$49,999",37.1,Income
+Illinois,"$50,000-$99,999",35.7,Income
+Illinois,"$100,000-$199,999",32.7,Income
+Illinois,"$200,000+",26.4,Income
+Indiana,"Less than $15,000",38.8,Income
+Indiana,"$15,000-$24,999",39.1,Income
+Indiana,"$25,000-$34,999",40.0,Income
+Indiana,"$35,000-$49,999",42.3,Income
+Indiana,"$50,000-$99,999",41.2,Income
+Indiana,"$100,000-$199,999",38.8,Income
+Indiana,"$200,000+",28.0,Income
+Kansas,"Less than $15,000",32.2,Income
+Kansas,"$15,000-$24,999",36.5,Income
+Kansas,"$25,000-$34,999",39.5,Income
+Kansas,"$35,000-$49,999",41.1,Income
+Kansas,"$50,000-$99,999",41.1,Income
+Kansas,"$100,000-$199,999",37.4,Income
+Kansas,"$200,000+",26.5,Income
+Kentucky,"Less than $15,000",36.8,Income
+Kentucky,"$15,000-$24,999",44.4,Income
+Kentucky,"$25,000-$34,999",42.9,Income
+Kentucky,"$35,000-$49,999",41.0,Income
+Kentucky,"$50,000-$99,999",34.4,Income
+Kentucky,"$100,000-$199,999",35.5,Income
+Kentucky,"$200,000+",26.5,Income
+Louisiana,"Less than $15,000",44.5,Income
+Louisiana,"$15,000-$24,999",46.7,Income
+Louisiana,"$25,000-$34,999",46.0,Income
+Louisiana,"$35,000-$49,999",41.0,Income
+Louisiana,"$50,000-$99,999",39.0,Income
+Louisiana,"$100,000-$199,999",34.7,Income
+Louisiana,"$200,000+",31.8,Income
+Massachusetts,"Less than $15,000",30.4,Income
+Massachusetts,"$15,000-$24,999",31.8,Income
+Massachusetts,"$25,000-$34,999",28.9,Income
+Massachusetts,"$35,000-$49,999",30.0,Income
+Massachusetts,"$50,000-$99,999",29.5,Income
+Massachusetts,"$100,000-$199,999",27.2,Income
+Massachusetts,"$200,000+",20.8,Income
+Maryland,"Less than $15,000",40.8,Income
+Maryland,"$15,000-$24,999",36.1,Income
+Maryland,"$25,000-$34,999",36.1,Income
+Maryland,"$35,000-$49,999",37.5,Income
+Maryland,"$50,000-$99,999",37.2,Income
+Maryland,"$100,000-$199,999",31.2,Income
+Maryland,"$200,000+",26.5,Income
+Maine,"Less than $15,000",35.4,Income
+Maine,"$15,000-$24,999",38.3,Income
+Maine,"$25,000-$34,999",35.5,Income
+Maine,"$35,000-$49,999",35.9,Income
+Maine,"$50,000-$99,999",34.0,Income
+Maine,"$100,000-$199,999",31.7,Income
+Maine,"$200,000+",24.0,Income
+Michigan,"Less than $15,000",39.6,Income
+Michigan,"$15,000-$24,999",42.5,Income
+Michigan,"$25,000-$34,999",38.9,Income
+Michigan,"$35,000-$49,999",37.4,Income
+Michigan,"$50,000-$99,999",37.8,Income
+Michigan,"$100,000-$199,999",35.2,Income
+Michigan,"$200,000+",20.1,Income
+Minnesota,"Less than $15,000",31.9,Income
+Minnesota,"$15,000-$24,999",33.6,Income
+Minnesota,"$25,000-$34,999",33.9,Income
+Minnesota,"$35,000-$49,999",36.7,Income
+Minnesota,"$50,000-$99,999",35.4,Income
+Minnesota,"$100,000-$199,999",32.4,Income
+Minnesota,"$200,000+",24.3,Income
+Missouri,"Less than $15,000",40.5,Income
+Missouri,"$15,000-$24,999",34.2,Income
+Missouri,"$25,000-$34,999",37.7,Income
+Missouri,"$35,000-$49,999",35.1,Income
+Missouri,"$50,000-$99,999",36.1,Income
+Missouri,"$100,000-$199,999",35.5,Income
+Missouri,"$200,000+",26.8,Income
+Mississippi,"Less than $15,000",56.6,Income
+Mississippi,"$15,000-$24,999",49.1,Income
+Mississippi,"$25,000-$34,999",50.3,Income
+Mississippi,"$35,000-$49,999",38.4,Income
+Mississippi,"$50,000-$99,999",41.2,Income
+Mississippi,"$100,000-$199,999",40.4,Income
+Mississippi,"$200,000+",34.8,Income
+Montana,"Less than $15,000",29.5,Income
+Montana,"$15,000-$24,999",37.1,Income
+Montana,"$25,000-$34,999",36.2,Income
+Montana,"$35,000-$49,999",37.9,Income
+Montana,"$50,000-$99,999",30.4,Income
+Montana,"$100,000-$199,999",29.2,Income
+Montana,"$200,000+",20.2,Income
+North Carolina,"Less than $15,000",40.0,Income
+North Carolina,"$15,000-$24,999",33.9,Income
+North Carolina,"$25,000-$34,999",36.5,Income
+North Carolina,"$35,000-$49,999",43.3,Income
+North Carolina,"$50,000-$99,999",36.5,Income
+North Carolina,"$100,000-$199,999",34.5,Income
+North Carolina,"$200,000+",24.0,Income
+North Dakota,"Less than $15,000",40.2,Income
+North Dakota,"$15,000-$24,999",33.4,Income
+North Dakota,"$25,000-$34,999",34.1,Income
+North Dakota,"$35,000-$49,999",36.7,Income
+North Dakota,"$50,000-$99,999",39.5,Income
+North Dakota,"$100,000-$199,999",38.3,Income
+North Dakota,"$200,000+",37.0,Income
+Nebraska,"Less than $15,000",40.6,Income
+Nebraska,"$15,000-$24,999",39.8,Income
+Nebraska,"$25,000-$34,999",37.6,Income
+Nebraska,"$35,000-$49,999",36.7,Income
+Nebraska,"$50,000-$99,999",38.9,Income
+Nebraska,"$100,000-$199,999",40.1,Income
+Nebraska,"$200,000+",32.6,Income
+New Hampshire,"Less than $15,000",34.2,Income
+New Hampshire,"$15,000-$24,999",36.5,Income
+New Hampshire,"$25,000-$34,999",36.7,Income
+New Hampshire,"$35,000-$49,999",32.1,Income
+New Hampshire,"$50,000-$99,999",30.0,Income
+New Hampshire,"$100,000-$199,999",34.2,Income
+New Hampshire,"$200,000+",24.6,Income
+New Jersey,"Less than $15,000",34.7,Income
+New Jersey,"$15,000-$24,999",34.0,Income
+New Jersey,"$25,000-$34,999",32.5,Income
+New Jersey,"$35,000-$49,999",28.8,Income
+New Jersey,"$50,000-$99,999",30.2,Income
+New Jersey,"$100,000-$199,999",28.5,Income
+New Jersey,"$200,000+",19.7,Income
+New Mexico,"Less than $15,000",35.4,Income
+New Mexico,"$15,000-$24,999",38.7,Income
+New Mexico,"$25,000-$34,999",43.8,Income
+New Mexico,"$35,000-$49,999",41.2,Income
+New Mexico,"$50,000-$99,999",30.0,Income
+New Mexico,"$100,000-$199,999",32.5,Income
+New Mexico,"$200,000+",25.7,Income
+Nevada,"Less than $15,000",49.1,Income
+Nevada,"$15,000-$24,999",38.7,Income
+Nevada,"$25,000-$34,999",44.2,Income
+Nevada,"$35,000-$49,999",36.3,Income
+Nevada,"$50,000-$99,999",35.8,Income
+Nevada,"$100,000-$199,999",37.7,Income
+Nevada,"$200,000+",24.3,Income
+New York,"Less than $15,000",35.5,Income
+New York,"$15,000-$24,999",34.6,Income
+New York,"$25,000-$34,999",30.6,Income
+New York,"$35,000-$49,999",32.1,Income
+New York,"$50,000-$99,999",32.9,Income
+New York,"$100,000-$199,999",29.2,Income
+New York,"$200,000+",20.2,Income
+Ohio,"Less than $15,000",41.9,Income
+Ohio,"$15,000-$24,999",42.1,Income
+Ohio,"$25,000-$34,999",33.6,Income
+Ohio,"$35,000-$49,999",43.2,Income
+Ohio,"$50,000-$99,999",41.1,Income
+Ohio,"$100,000-$199,999",34.9,Income
+Ohio,"$200,000+",27.6,Income
+Oklahoma,"Less than $15,000",39.0,Income
+Oklahoma,"$15,000-$24,999",40.5,Income
+Oklahoma,"$25,000-$34,999",39.6,Income
+Oklahoma,"$35,000-$49,999",40.7,Income
+Oklahoma,"$50,000-$99,999",38.5,Income
+Oklahoma,"$100,000-$199,999",36.8,Income
+Oklahoma,"$200,000+",29.2,Income
+Oregon,"Less than $15,000",37.9,Income
+Oregon,"$15,000-$24,999",39.5,Income
+Oregon,"$25,000-$34,999",33.9,Income
+Oregon,"$35,000-$49,999",37.4,Income
+Oregon,"$50,000-$99,999",37.5,Income
+Oregon,"$100,000-$199,999",31.3,Income
+Oregon,"$200,000+",26.7,Income
+Pennsylvania,"Less than $15,000",36.2,Income
+Pennsylvania,"$15,000-$24,999",38.4,Income
+Pennsylvania,"$25,000-$34,999",35.1,Income
+Pennsylvania,"$35,000-$49,999",35.2,Income
+Pennsylvania,"$50,000-$99,999",35.5,Income
+Pennsylvania,"$100,000-$199,999",34.9,Income
+Pennsylvania,"$200,000+",28.9,Income
+Rhode Island,"Less than $15,000",36.6,Income
+Rhode Island,"$15,000-$24,999",44.5,Income
+Rhode Island,"$25,000-$34,999",35.2,Income
+Rhode Island,"$35,000-$49,999",35.1,Income
+Rhode Island,"$50,000-$99,999",31.7,Income
+Rhode Island,"$100,000-$199,999",30.3,Income
+Rhode Island,"$200,000+",21.6,Income
+South Carolina,"Less than $15,000",40.5,Income
+South Carolina,"$15,000-$24,999",35.7,Income
+South Carolina,"$25,000-$34,999",36.6,Income
+South Carolina,"$35,000-$49,999",41.1,Income
+South Carolina,"$50,000-$99,999",35.9,Income
+South Carolina,"$100,000-$199,999",31.2,Income
+South Carolina,"$200,000+",33.3,Income
+South Dakota,"Less than $15,000",28.8,Income
+South Dakota,"$15,000-$24,999",45.7,Income
+South Dakota,"$25,000-$34,999",44.3,Income
+South Dakota,"$35,000-$49,999",43.6,Income
+South Dakota,"$50,000-$99,999",34.7,Income
+South Dakota,"$100,000-$199,999",39.3,Income
+South Dakota,"$200,000+",38.9,Income
+Texas,"Less than $15,000",38.2,Income
+Texas,"$15,000-$24,999",40.5,Income
+Texas,"$25,000-$34,999",40.4,Income
+Texas,"$35,000-$49,999",37.7,Income
+Texas,"$50,000-$99,999",37.1,Income
+Texas,"$100,000-$199,999",36.1,Income
+Texas,"$200,000+",24.5,Income
+Utah,"Less than $15,000",35.3,Income
+Utah,"$15,000-$24,999",26.5,Income
+Utah,"$25,000-$34,999",28.9,Income
+Utah,"$35,000-$49,999",38.1,Income
+Utah,"$50,000-$99,999",34.1,Income
+Utah,"$100,000-$199,999",33.1,Income
+Utah,"$200,000+",21.0,Income
+Virginia,"Less than $15,000",36.8,Income
+Virginia,"$15,000-$24,999",36.2,Income
+Virginia,"$25,000-$34,999",35.0,Income
+Virginia,"$35,000-$49,999",34.2,Income
+Virginia,"$50,000-$99,999",34.8,Income
+Virginia,"$100,000-$199,999",34.5,Income
+Virginia,"$200,000+",23.8,Income
+Virgin Islands,"Less than $15,000",,Income
+Virgin Islands,"$15,000-$24,999",40.0,Income
+Virgin Islands,"$25,000-$34,999",,Income
+Virgin Islands,"$35,000-$49,999",50.2,Income
+Virgin Islands,"$50,000-$99,999",38.4,Income
+Virgin Islands,"$100,000-$199,999",44.6,Income
+Virgin Islands,"$200,000+",,Income
+Vermont,"Less than $15,000",29.0,Income
+Vermont,"$15,000-$24,999",40.0,Income
+Vermont,"$25,000-$34,999",37.4,Income
+Vermont,"$35,000-$49,999",31.0,Income
+Vermont,"$50,000-$99,999",30.9,Income
+Vermont,"$100,000-$199,999",24.8,Income
+Vermont,"$200,000+",18.9,Income
+Washington,"Less than $15,000",37.0,Income
+Washington,"$15,000-$24,999",36.8,Income
+Washington,"$25,000-$34,999",35.7,Income
+Washington,"$35,000-$49,999",33.6,Income
+Washington,"$50,000-$99,999",34.4,Income
+Washington,"$100,000-$199,999",33.2,Income
+Washington,"$200,000+",21.1,Income
+Wisconsin,"Less than $15,000",43.6,Income
+Wisconsin,"$15,000-$24,999",40.0,Income
+Wisconsin,"$25,000-$34,999",37.7,Income
+Wisconsin,"$35,000-$49,999",41.5,Income
+Wisconsin,"$50,000-$99,999",38.8,Income
+Wisconsin,"$100,000-$199,999",37.3,Income
+Wisconsin,"$200,000+",29.7,Income
+West Virginia,"Less than $15,000",40.8,Income
+West Virginia,"$15,000-$24,999",41.7,Income
+West Virginia,"$25,000-$34,999",41.9,Income
+West Virginia,"$35,000-$49,999",45.4,Income
+West Virginia,"$50,000-$99,999",42.5,Income
+West Virginia,"$100,000-$199,999",39.5,Income
+West Virginia,"$200,000+",32.8,Income
+Wyoming,"Less than $15,000",41.5,Income
+Wyoming,"$15,000-$24,999",41.8,Income
+Wyoming,"$25,000-$34,999",34.5,Income
+Wyoming,"$35,000-$49,999",34.2,Income
+Wyoming,"$50,000-$99,999",32.4,Income
+Wyoming,"$100,000-$199,999",31.9,Income
+Wyoming,"$200,000+",25.2,Income
+Alaska,"Less than $15,000",37.6,Income
+Alaska,"$15,000-$24,999",34.3,Income
+Alaska,"$25,000-$34,999",30.4,Income
+Alaska,"$35,000-$49,999",36.0,Income
+Alaska,"$50,000-$99,999",38.0,Income
+Alaska,"$100,000-$199,999",37.1,Income
+Alaska,"$200,000+",38.3,Income
+Alabama,"Less than $15,000",46.7,Income
+Alabama,"$15,000-$24,999",39.4,Income
+Alabama,"$25,000-$34,999",41.5,Income
+Alabama,"$35,000-$49,999",42.4,Income
+Alabama,"$50,000-$99,999",40.0,Income
+Alabama,"$100,000-$199,999",38.8,Income
+Alabama,"$200,000+",31.2,Income
+Arkansas,"Less than $15,000",40.8,Income
+Arkansas,"$15,000-$24,999",43.2,Income
+Arkansas,"$25,000-$34,999",41.3,Income
+Arkansas,"$35,000-$49,999",43.4,Income
+Arkansas,"$50,000-$99,999",41.5,Income
+Arkansas,"$100,000-$199,999",38.8,Income
+Arkansas,"$200,000+",31.6,Income
+Arizona,"Less than $15,000",35.7,Income
+Arizona,"$15,000-$24,999",35.9,Income
+Arizona,"$25,000-$34,999",37.6,Income
+Arizona,"$35,000-$49,999",33.6,Income
+Arizona,"$50,000-$99,999",32.8,Income
+Arizona,"$100,000-$199,999",31.3,Income
+Arizona,"$200,000+",26.9,Income
+California,"Less than $15,000",33.4,Income
+California,"$15,000-$24,999",29.6,Income
+California,"$25,000-$34,999",27.7,Income
+California,"$35,000-$49,999",28.8,Income
+California,"$50,000-$99,999",30.0,Income
+California,"$100,000-$199,999",28.4,Income
+California,"$200,000+",19.7,Income
+Colorado,"Less than $15,000",33.0,Income
+Colorado,"$15,000-$24,999",28.5,Income
+Colorado,"$25,000-$34,999",28.1,Income
+Colorado,"$35,000-$49,999",26.2,Income
+Colorado,"$50,000-$99,999",26.0,Income
+Colorado,"$100,000-$199,999",24.7,Income
+Colorado,"$200,000+",17.2,Income
+Connecticut,"Less than $15,000",36.6,Income
+Connecticut,"$15,000-$24,999",36.1,Income
+Connecticut,"$25,000-$34,999",37.3,Income
+Connecticut,"$35,000-$49,999",35.1,Income
+Connecticut,"$50,000-$99,999",31.6,Income
+Connecticut,"$100,000-$199,999",27.4,Income
+Connecticut,"$200,000+",23.5,Income
+District of Columbia,"Less than $15,000",26.8,Income
+District of Columbia,"$15,000-$24,999",36.5,Income
+District of Columbia,"$25,000-$34,999",37.0,Income
+District of Columbia,"$35,000-$49,999",21.5,Income
+District of Columbia,"$50,000-$99,999",28.8,Income
+District of Columbia,"$100,000-$199,999",21.3,Income
+District of Columbia,"$200,000+",15.1,Income
+Delaware,"Less than $15,000",35.7,Income
+Delaware,"$15,000-$24,999",40.7,Income
+Delaware,"$25,000-$34,999",36.6,Income
+Delaware,"$35,000-$49,999",38.1,Income
+Delaware,"$50,000-$99,999",36.3,Income
+Delaware,"$100,000-$199,999",35.2,Income
+Delaware,"$200,000+",24.6,Income
+Florida,"Less than $15,000",33.8,Income
+Florida,"$15,000-$24,999",31.0,Income
+Florida,"$25,000-$34,999",34.2,Income
+Florida,"$35,000-$49,999",30.4,Income
+Florida,"$50,000-$99,999",32.0,Income
+Florida,"$100,000-$199,999",32.2,Income
+Florida,"$200,000+",20.4,Income
+Georgia,"Less than $15,000",36.0,Income
+Georgia,"$15,000-$24,999",37.6,Income
+Georgia,"$25,000-$34,999",36.2,Income
+Georgia,"$35,000-$49,999",36.3,Income
+Georgia,"$50,000-$99,999",37.4,Income
+Georgia,"$100,000-$199,999",38.0,Income
+Georgia,"$200,000+",23.9,Income
+Hawaii,"Less than $15,000",34.1,Income
+Hawaii,"$15,000-$24,999",31.6,Income
+Hawaii,"$25,000-$34,999",28.4,Income
+Hawaii,"$35,000-$49,999",30.8,Income
+Hawaii,"$50,000-$99,999",24.6,Income
+Hawaii,"$100,000-$199,999",23.9,Income
+Hawaii,"$200,000+",22.9,Income
+Iowa,"Less than $15,000",42.4,Income
+Iowa,"$15,000-$24,999",37.7,Income
+Iowa,"$25,000-$34,999",40.5,Income
+Iowa,"$35,000-$49,999",39.2,Income
+Iowa,"$50,000-$99,999",39.2,Income
+Iowa,"$100,000-$199,999",38.5,Income
+Iowa,"$200,000+",27.2,Income
+Idaho,"Less than $15,000",41.9,Income
+Idaho,"$15,000-$24,999",31.5,Income
+Idaho,"$25,000-$34,999",35.9,Income
+Idaho,"$35,000-$49,999",33.8,Income
+Idaho,"$50,000-$99,999",31.7,Income
+Idaho,"$100,000-$199,999",30.2,Income
+Idaho,"$200,000+",19.8,Income
+Illinois,"Less than $15,000",42.2,Income
+Illinois,"$15,000-$24,999",45.0,Income
+Illinois,"$25,000-$34,999",40.7,Income
+Illinois,"$35,000-$49,999",39.2,Income
+Illinois,"$50,000-$99,999",36.5,Income
+Illinois,"$100,000-$199,999",35.2,Income
+Illinois,"$200,000+",22.0,Income
+Indiana,"Less than $15,000",40.1,Income
+Indiana,"$15,000-$24,999",44.1,Income
+Indiana,"$25,000-$34,999",41.8,Income
+Indiana,"$35,000-$49,999",40.8,Income
+Indiana,"$50,000-$99,999",37.6,Income
+Indiana,"$100,000-$199,999",37.6,Income
+Indiana,"$200,000+",28.5,Income
+Kansas,"Less than $15,000",44.3,Income
+Kansas,"$15,000-$24,999",36.3,Income
+Kansas,"$25,000-$34,999",40.7,Income
+Kansas,"$35,000-$49,999",37.9,Income
+Kansas,"$50,000-$99,999",35.9,Income
+Kansas,"$100,000-$199,999",35.4,Income
+Kansas,"$200,000+",28.1,Income
+Louisiana,"Less than $15,000",45.5,Income
+Louisiana,"$15,000-$24,999",46.6,Income
+Louisiana,"$25,000-$34,999",41.3,Income
+Louisiana,"$35,000-$49,999",38.8,Income
+Louisiana,"$50,000-$99,999",41.4,Income
+Louisiana,"$100,000-$199,999",39.9,Income
+Louisiana,"$200,000+",25.2,Income
+Massachusetts,"Less than $15,000",35.5,Income
+Massachusetts,"$15,000-$24,999",34.3,Income
+Massachusetts,"$25,000-$34,999",36.0,Income
+Massachusetts,"$35,000-$49,999",34.2,Income
+Massachusetts,"$50,000-$99,999",29.3,Income
+Massachusetts,"$100,000-$199,999",25.9,Income
+Massachusetts,"$200,000+",19.8,Income
+Maryland,"Less than $15,000",34.1,Income
+Maryland,"$15,000-$24,999",43.1,Income
+Maryland,"$25,000-$34,999",37.6,Income
+Maryland,"$35,000-$49,999",39.0,Income
+Maryland,"$50,000-$99,999",36.6,Income
+Maryland,"$100,000-$199,999",34.9,Income
+Maryland,"$200,000+",26.3,Income
+Maine,"Less than $15,000",45.5,Income
+Maine,"$15,000-$24,999",39.5,Income
+Maine,"$25,000-$34,999",34.9,Income
+Maine,"$35,000-$49,999",33.7,Income
+Maine,"$50,000-$99,999",34.1,Income
+Maine,"$100,000-$199,999",30.6,Income
+Maine,"$200,000+",19.6,Income
+Michigan,"Less than $15,000",39.0,Income
+Michigan,"$15,000-$24,999",41.2,Income
+Michigan,"$25,000-$34,999",41.4,Income
+Michigan,"$35,000-$49,999",35.8,Income
+Michigan,"$50,000-$99,999",36.6,Income
+Michigan,"$100,000-$199,999",33.1,Income
+Michigan,"$200,000+",30.4,Income
+Minnesota,"Less than $15,000",30.9,Income
+Minnesota,"$15,000-$24,999",37.2,Income
+Minnesota,"$25,000-$34,999",31.6,Income
+Minnesota,"$35,000-$49,999",33.9,Income
+Minnesota,"$50,000-$99,999",36.0,Income
+Minnesota,"$100,000-$199,999",36.9,Income
+Minnesota,"$200,000+",23.3,Income
+Missouri,"Less than $15,000",36.8,Income
+Missouri,"$15,000-$24,999",40.4,Income
+Missouri,"$25,000-$34,999",39.9,Income
+Missouri,"$35,000-$49,999",36.2,Income
+Missouri,"$50,000-$99,999",38.6,Income
+Missouri,"$100,000-$199,999",36.2,Income
+Missouri,"$200,000+",28.6,Income
+Mississippi,"Less than $15,000",46.8,Income
+Mississippi,"$15,000-$24,999",49.8,Income
+Mississippi,"$25,000-$34,999",48.8,Income
+Mississippi,"$35,000-$49,999",40.7,Income
+Mississippi,"$50,000-$99,999",37.0,Income
+Mississippi,"$100,000-$199,999",40.1,Income
+Mississippi,"$200,000+",38.4,Income
+Montana,"Less than $15,000",30.9,Income
+Montana,"$15,000-$24,999",31.6,Income
+Montana,"$25,000-$34,999",35.8,Income
+Montana,"$35,000-$49,999",32.0,Income
+Montana,"$50,000-$99,999",31.2,Income
+Montana,"$100,000-$199,999",28.0,Income
+Montana,"$200,000+",21.3,Income
+North Carolina,"Less than $15,000",36.7,Income
+North Carolina,"$15,000-$24,999",38.9,Income
+North Carolina,"$25,000-$34,999",39.3,Income
+North Carolina,"$35,000-$49,999",33.9,Income
+North Carolina,"$50,000-$99,999",34.0,Income
+North Carolina,"$100,000-$199,999",35.5,Income
+North Carolina,"$200,000+",33.3,Income
+North Dakota,"Less than $15,000",41.8,Income
+North Dakota,"$15,000-$24,999",31.6,Income
+North Dakota,"$25,000-$34,999",38.6,Income
+North Dakota,"$35,000-$49,999",39.2,Income
+North Dakota,"$50,000-$99,999",35.8,Income
+North Dakota,"$100,000-$199,999",36.4,Income
+North Dakota,"$200,000+",33.7,Income
+Nebraska,"Less than $15,000",43.9,Income
+Nebraska,"$15,000-$24,999",40.2,Income
+Nebraska,"$25,000-$34,999",39.5,Income
+Nebraska,"$35,000-$49,999",35.8,Income
+Nebraska,"$50,000-$99,999",38.1,Income
+Nebraska,"$100,000-$199,999",37.2,Income
+Nebraska,"$200,000+",30.2,Income
+New Hampshire,"Less than $15,000",44.0,Income
+New Hampshire,"$15,000-$24,999",35.3,Income
+New Hampshire,"$25,000-$34,999",36.2,Income
+New Hampshire,"$35,000-$49,999",39.5,Income
+New Hampshire,"$50,000-$99,999",32.1,Income
+New Hampshire,"$100,000-$199,999",32.2,Income
+New Hampshire,"$200,000+",27.4,Income
+New Jersey,"Less than $15,000",34.3,Income
+New Jersey,"$15,000-$24,999",29.5,Income
+New Jersey,"$25,000-$34,999",34.3,Income
+New Jersey,"$35,000-$49,999",33.1,Income
+New Jersey,"$50,000-$99,999",29.1,Income
+New Jersey,"$100,000-$199,999",30.4,Income
+New Jersey,"$200,000+",22.5,Income
+New Mexico,"Less than $15,000",35.4,Income
+New Mexico,"$15,000-$24,999",36.3,Income
+New Mexico,"$25,000-$34,999",38.1,Income
+New Mexico,"$35,000-$49,999",35.6,Income
+New Mexico,"$50,000-$99,999",35.4,Income
+New Mexico,"$100,000-$199,999",37.1,Income
+New Mexico,"$200,000+",27.0,Income
+Nevada,"Less than $15,000",26.7,Income
+Nevada,"$15,000-$24,999",25.1,Income
+Nevada,"$25,000-$34,999",27.2,Income
+Nevada,"$35,000-$49,999",37.5,Income
+Nevada,"$50,000-$99,999",32.7,Income
+Nevada,"$100,000-$199,999",33.3,Income
+Nevada,"$200,000+",31.3,Income
+New York,"Less than $15,000",34.9,Income
+New York,"$15,000-$24,999",31.0,Income
+New York,"$25,000-$34,999",32.0,Income
+New York,"$35,000-$49,999",32.4,Income
+New York,"$50,000-$99,999",30.1,Income
+New York,"$100,000-$199,999",26.8,Income
+New York,"$200,000+",20.6,Income
+Ohio,"Less than $15,000",37.0,Income
+Ohio,"$15,000-$24,999",41.1,Income
+Ohio,"$25,000-$34,999",37.0,Income
+Ohio,"$35,000-$49,999",36.4,Income
+Ohio,"$50,000-$99,999",38.2,Income
+Ohio,"$100,000-$199,999",38.0,Income
+Ohio,"$200,000+",28.8,Income
+Oklahoma,"Less than $15,000",46.8,Income
+Oklahoma,"$15,000-$24,999",39.1,Income
+Oklahoma,"$25,000-$34,999",43.0,Income
+Oklahoma,"$35,000-$49,999",39.1,Income
+Oklahoma,"$50,000-$99,999",40.2,Income
+Oklahoma,"$100,000-$199,999",35.7,Income
+Oklahoma,"$200,000+",29.1,Income
+Oregon,"Less than $15,000",42.0,Income
+Oregon,"$15,000-$24,999",39.4,Income
+Oregon,"$25,000-$34,999",33.7,Income
+Oregon,"$35,000-$49,999",35.9,Income
+Oregon,"$50,000-$99,999",36.6,Income
+Oregon,"$100,000-$199,999",33.4,Income
+Oregon,"$200,000+",21.6,Income
+Rhode Island,"Less than $15,000",44.6,Income
+Rhode Island,"$15,000-$24,999",35.5,Income
+Rhode Island,"$25,000-$34,999",31.4,Income
+Rhode Island,"$35,000-$49,999",33.5,Income
+Rhode Island,"$50,000-$99,999",31.6,Income
+Rhode Island,"$100,000-$199,999",29.8,Income
+Rhode Island,"$200,000+",23.5,Income
+South Carolina,"Less than $15,000",47.2,Income
+South Carolina,"$15,000-$24,999",39.2,Income
+South Carolina,"$25,000-$34,999",40.9,Income
+South Carolina,"$35,000-$49,999",36.2,Income
+South Carolina,"$50,000-$99,999",36.5,Income
+South Carolina,"$100,000-$199,999",34.4,Income
+South Carolina,"$200,000+",22.4,Income
+South Dakota,"Less than $15,000",25.4,Income
+South Dakota,"$15,000-$24,999",36.8,Income
+South Dakota,"$25,000-$34,999",40.7,Income
+South Dakota,"$35,000-$49,999",36.4,Income
+South Dakota,"$50,000-$99,999",39.2,Income
+South Dakota,"$100,000-$199,999",35.0,Income
+South Dakota,"$200,000+",34.1,Income
+Tennessee,"Less than $15,000",41.4,Income
+Tennessee,"$15,000-$24,999",40.9,Income
+Tennessee,"$25,000-$34,999",33.8,Income
+Tennessee,"$35,000-$49,999",37.9,Income
+Tennessee,"$50,000-$99,999",41.1,Income
+Tennessee,"$100,000-$199,999",36.8,Income
+Tennessee,"$200,000+",25.9,Income
+Texas,"Less than $15,000",35.9,Income
+Texas,"$15,000-$24,999",35.4,Income
+Texas,"$25,000-$34,999",40.4,Income
+Texas,"$35,000-$49,999",40.4,Income
+Texas,"$50,000-$99,999",35.6,Income
+Texas,"$100,000-$199,999",33.9,Income
+Texas,"$200,000+",25.0,Income
+Utah,"Less than $15,000",37.9,Income
+Utah,"$15,000-$24,999",32.6,Income
+Utah,"$25,000-$34,999",28.4,Income
+Utah,"$35,000-$49,999",34.3,Income
+Utah,"$50,000-$99,999",32.5,Income
+Utah,"$100,000-$199,999",30.8,Income
+Utah,"$200,000+",22.4,Income
+Virginia,"Less than $15,000",45.2,Income
+Virginia,"$15,000-$24,999",40.6,Income
+Virginia,"$25,000-$34,999",35.9,Income
+Virginia,"$35,000-$49,999",37.2,Income
+Virginia,"$50,000-$99,999",36.9,Income
+Virginia,"$100,000-$199,999",35.7,Income
+Virginia,"$200,000+",27.1,Income
+Virgin Islands,"Less than $15,000",45.7,Income
+Virgin Islands,"$15,000-$24,999",22.2,Income
+Virgin Islands,"$25,000-$34,999",31.2,Income
+Virgin Islands,"$35,000-$49,999",38.7,Income
+Virgin Islands,"$50,000-$99,999",32.9,Income
+Virgin Islands,"$100,000-$199,999",34.5,Income
+Virgin Islands,"$200,000+",,Income
+Vermont,"Less than $15,000",33.5,Income
+Vermont,"$15,000-$24,999",38.4,Income
+Vermont,"$25,000-$34,999",30.4,Income
+Vermont,"$35,000-$49,999",27.6,Income
+Vermont,"$50,000-$99,999",31.7,Income
+Vermont,"$100,000-$199,999",26.8,Income
+Vermont,"$200,000+",19.9,Income
+Washington,"Less than $15,000",35.7,Income
+Washington,"$15,000-$24,999",35.6,Income
+Washington,"$25,000-$34,999",34.5,Income
+Washington,"$35,000-$49,999",36.8,Income
+Washington,"$50,000-$99,999",32.5,Income
+Washington,"$100,000-$199,999",30.4,Income
+Washington,"$200,000+",20.3,Income
+Wisconsin,"Less than $15,000",40.0,Income
+Wisconsin,"$15,000-$24,999",41.4,Income
+Wisconsin,"$25,000-$34,999",36.7,Income
+Wisconsin,"$35,000-$49,999",39.4,Income
+Wisconsin,"$50,000-$99,999",36.1,Income
+Wisconsin,"$100,000-$199,999",37.1,Income
+Wisconsin,"$200,000+",34.1,Income
+West Virginia,"Less than $15,000",36.2,Income
+West Virginia,"$15,000-$24,999",40.6,Income
+West Virginia,"$25,000-$34,999",45.9,Income
+West Virginia,"$35,000-$49,999",43.8,Income
+West Virginia,"$50,000-$99,999",42.0,Income
+West Virginia,"$100,000-$199,999",43.1,Income
+West Virginia,"$200,000+",31.1,Income
+Wyoming,"Less than $15,000",38.7,Income
+Wyoming,"$15,000-$24,999",36.1,Income
+Wyoming,"$25,000-$34,999",34.9,Income
+Wyoming,"$35,000-$49,999",33.0,Income
+Wyoming,"$50,000-$99,999",35.3,Income
+Wyoming,"$100,000-$199,999",32.4,Income
+Wyoming,"$200,000+",28.2,Income
+Alaska,"Less than $15,000",37.8,Income
+Alaska,"$15,000-$24,999",45.0,Income
+Alaska,"$25,000-$34,999",33.3,Income
+Alaska,"$35,000-$49,999",28.5,Income
+Alaska,"$50,000-$99,999",34.4,Income
+Alaska,"$100,000-$199,999",30.9,Income
+Alaska,"$200,000+",27.2,Income
+Alabama,"Less than $15,000",39.5,Income
+Alabama,"$15,000-$24,999",46.1,Income
+Alabama,"$25,000-$34,999",38.0,Income
+Alabama,"$35,000-$49,999",42.3,Income
+Alabama,"$50,000-$99,999",40.2,Income
+Alabama,"$100,000-$199,999",36.9,Income
+Alabama,"$200,000+",23.7,Income
+Arkansas,"Less than $15,000",39.6,Income
+Arkansas,"$15,000-$24,999",39.4,Income
+Arkansas,"$25,000-$34,999",35.1,Income
+Arkansas,"$35,000-$49,999",42.8,Income
+Arkansas,"$50,000-$99,999",39.6,Income
+Arkansas,"$100,000-$199,999",35.2,Income
+Arkansas,"$200,000+",27.9,Income
+Arizona,"Less than $15,000",36.2,Income
+Arizona,"$15,000-$24,999",35.6,Income
+Arizona,"$25,000-$34,999",35.4,Income
+Arizona,"$35,000-$49,999",33.8,Income
+Arizona,"$50,000-$99,999",34.4,Income
+Arizona,"$100,000-$199,999",32.5,Income
+Arizona,"$200,000+",28.4,Income
+California,"Less than $15,000",36.0,Income
+California,"$15,000-$24,999",31.4,Income
+California,"$25,000-$34,999",34.0,Income
+California,"$35,000-$49,999",29.3,Income
+California,"$50,000-$99,999",27.9,Income
+California,"$100,000-$199,999",29.7,Income
+California,"$200,000+",19.0,Income
+Colorado,"Less than $15,000",33.0,Income
+Colorado,"$15,000-$24,999",30.4,Income
+Colorado,"$25,000-$34,999",26.7,Income
+Colorado,"$35,000-$49,999",27.6,Income
+Colorado,"$50,000-$99,999",26.9,Income
+Colorado,"$100,000-$199,999",22.7,Income
+Colorado,"$200,000+",18.2,Income
+Connecticut,"Less than $15,000",38.7,Income
+Connecticut,"$15,000-$24,999",35.6,Income
+Connecticut,"$25,000-$34,999",42.7,Income
+Connecticut,"$35,000-$49,999",36.8,Income
+Connecticut,"$50,000-$99,999",30.0,Income
+Connecticut,"$100,000-$199,999",28.8,Income
+Connecticut,"$200,000+",22.8,Income
+District of Columbia,"Less than $15,000",31.2,Income
+District of Columbia,"$15,000-$24,999",37.2,Income
+District of Columbia,"$25,000-$34,999",41.5,Income
+District of Columbia,"$35,000-$49,999",31.1,Income
+District of Columbia,"$50,000-$99,999",22.6,Income
+District of Columbia,"$100,000-$199,999",20.0,Income
+District of Columbia,"$200,000+",11.8,Income
+Delaware,"Less than $15,000",42.0,Income
+Delaware,"$15,000-$24,999",42.8,Income
+Delaware,"$25,000-$34,999",41.3,Income
+Delaware,"$35,000-$49,999",39.3,Income
+Delaware,"$50,000-$99,999",39.2,Income
+Delaware,"$100,000-$199,999",32.8,Income
+Delaware,"$200,000+",30.9,Income
+Florida,"Less than $15,000",33.4,Income
+Florida,"$15,000-$24,999",40.0,Income
+Florida,"$25,000-$34,999",31.8,Income
+Florida,"$35,000-$49,999",37.5,Income
+Florida,"$50,000-$99,999",32.2,Income
+Florida,"$100,000-$199,999",31.3,Income
+Florida,"$200,000+",20.6,Income
+Georgia,"Less than $15,000",36.9,Income
+Georgia,"$15,000-$24,999",42.5,Income
+Georgia,"$25,000-$34,999",44.0,Income
+Georgia,"$35,000-$49,999",42.7,Income
+Georgia,"$50,000-$99,999",37.9,Income
+Georgia,"$100,000-$199,999",36.0,Income
+Georgia,"$200,000+",23.2,Income
+Hawaii,"Less than $15,000",28.1,Income
+Hawaii,"$15,000-$24,999",32.3,Income
+Hawaii,"$25,000-$34,999",25.6,Income
+Hawaii,"$35,000-$49,999",25.3,Income
+Hawaii,"$50,000-$99,999",26.9,Income
+Hawaii,"$100,000-$199,999",25.5,Income
+Hawaii,"$200,000+",19.3,Income
+Iowa,"Less than $15,000",45.3,Income
+Iowa,"$15,000-$24,999",46.7,Income
+Iowa,"$25,000-$34,999",40.6,Income
+Iowa,"$35,000-$49,999",36.7,Income
+Iowa,"$50,000-$99,999",37.5,Income
+Iowa,"$100,000-$199,999",36.9,Income
+Iowa,"$200,000+",28.0,Income
+Idaho,"Less than $15,000",36.1,Income
+Idaho,"$15,000-$24,999",31.3,Income
+Idaho,"$25,000-$34,999",34.7,Income
+Idaho,"$35,000-$49,999",31.4,Income
+Idaho,"$50,000-$99,999",34.5,Income
+Idaho,"$100,000-$199,999",30.9,Income
+Idaho,"$200,000+",30.9,Income
+Illinois,"Less than $15,000",46.7,Income
+Illinois,"$15,000-$24,999",37.8,Income
+Illinois,"$25,000-$34,999",30.0,Income
+Illinois,"$35,000-$49,999",33.3,Income
+Illinois,"$50,000-$99,999",36.6,Income
+Illinois,"$100,000-$199,999",31.8,Income
+Illinois,"$200,000+",24.3,Income
+Indiana,"Less than $15,000",37.9,Income
+Indiana,"$15,000-$24,999",39.4,Income
+Indiana,"$25,000-$34,999",40.1,Income
+Indiana,"$35,000-$49,999",38.6,Income
+Indiana,"$50,000-$99,999",40.4,Income
+Indiana,"$100,000-$199,999",38.0,Income
+Indiana,"$200,000+",29.4,Income
+Kansas,"Less than $15,000",36.8,Income
+Kansas,"$15,000-$24,999",39.4,Income
+Kansas,"$25,000-$34,999",38.3,Income
+Kansas,"$35,000-$49,999",38.0,Income
+Kansas,"$50,000-$99,999",38.0,Income
+Kansas,"$100,000-$199,999",34.8,Income
+Kansas,"$200,000+",27.0,Income
+Kentucky,"Less than $15,000",43.6,Income
+Kentucky,"$15,000-$24,999",44.1,Income
+Kentucky,"$25,000-$34,999",44.1,Income
+Kentucky,"$35,000-$49,999",35.7,Income
+Kentucky,"$50,000-$99,999",35.5,Income
+Kentucky,"$100,000-$199,999",37.5,Income
+Kentucky,"$200,000+",35.9,Income
+Louisiana,"Less than $15,000",41.3,Income
+Louisiana,"$15,000-$24,999",43.8,Income
+Louisiana,"$25,000-$34,999",44.6,Income
+Louisiana,"$35,000-$49,999",39.4,Income
+Louisiana,"$50,000-$99,999",41.3,Income
+Louisiana,"$100,000-$199,999",36.4,Income
+Louisiana,"$200,000+",30.1,Income
+Massachusetts,"Less than $15,000",36.6,Income
+Massachusetts,"$15,000-$24,999",33.0,Income
+Massachusetts,"$25,000-$34,999",33.2,Income
+Massachusetts,"$35,000-$49,999",32.8,Income
+Massachusetts,"$50,000-$99,999",30.2,Income
+Massachusetts,"$100,000-$199,999",26.0,Income
+Massachusetts,"$200,000+",20.0,Income
+Maryland,"Less than $15,000",35.2,Income
+Maryland,"$15,000-$24,999",36.2,Income
+Maryland,"$25,000-$34,999",39.4,Income
+Maryland,"$35,000-$49,999",34.2,Income
+Maryland,"$50,000-$99,999",36.0,Income
+Maryland,"$100,000-$199,999",33.6,Income
+Maryland,"$200,000+",27.4,Income
+Maine,"Less than $15,000",45.0,Income
+Maine,"$15,000-$24,999",32.5,Income
+Maine,"$25,000-$34,999",40.4,Income
+Maine,"$35,000-$49,999",35.2,Income
+Maine,"$50,000-$99,999",33.5,Income
+Maine,"$100,000-$199,999",31.4,Income
+Maine,"$200,000+",21.0,Income
+Michigan,"Less than $15,000",44.2,Income
+Michigan,"$15,000-$24,999",39.1,Income
+Michigan,"$25,000-$34,999",35.8,Income
+Michigan,"$35,000-$49,999",35.1,Income
+Michigan,"$50,000-$99,999",35.0,Income
+Michigan,"$100,000-$199,999",31.6,Income
+Michigan,"$200,000+",27.7,Income
+Minnesota,"Less than $15,000",39.4,Income
+Minnesota,"$15,000-$24,999",40.4,Income
+Minnesota,"$25,000-$34,999",33.4,Income
+Minnesota,"$35,000-$49,999",33.6,Income
+Minnesota,"$50,000-$99,999",35.7,Income
+Minnesota,"$100,000-$199,999",33.5,Income
+Minnesota,"$200,000+",25.5,Income
+Missouri,"Less than $15,000",41.3,Income
+Missouri,"$15,000-$24,999",43.5,Income
+Missouri,"$25,000-$34,999",42.3,Income
+Missouri,"$35,000-$49,999",38.4,Income
+Missouri,"$50,000-$99,999",38.3,Income
+Missouri,"$100,000-$199,999",36.4,Income
+Missouri,"$200,000+",27.5,Income
+Mississippi,"Less than $15,000",40.5,Income
+Mississippi,"$15,000-$24,999",41.2,Income
+Mississippi,"$25,000-$34,999",40.2,Income
+Mississippi,"$35,000-$49,999",47.2,Income
+Mississippi,"$50,000-$99,999",38.1,Income
+Mississippi,"$100,000-$199,999",35.5,Income
+Mississippi,"$200,000+",33.8,Income
+Montana,"Less than $15,000",31.7,Income
+Montana,"$15,000-$24,999",32.6,Income
+Montana,"$25,000-$34,999",27.9,Income
+Montana,"$35,000-$49,999",29.9,Income
+Montana,"$50,000-$99,999",34.4,Income
+Montana,"$100,000-$199,999",27.9,Income
+Montana,"$200,000+",23.6,Income
+North Carolina,"Less than $15,000",30.2,Income
+North Carolina,"$15,000-$24,999",41.4,Income
+North Carolina,"$25,000-$34,999",32.0,Income
+North Carolina,"$35,000-$49,999",40.3,Income
+North Carolina,"$50,000-$99,999",37.2,Income
+North Carolina,"$100,000-$199,999",32.5,Income
+North Carolina,"$200,000+",25.4,Income
+North Dakota,"Less than $15,000",37.9,Income
+North Dakota,"$15,000-$24,999",34.1,Income
+North Dakota,"$25,000-$34,999",35.1,Income
+North Dakota,"$35,000-$49,999",37.4,Income
+North Dakota,"$50,000-$99,999",36.5,Income
+North Dakota,"$100,000-$199,999",37.6,Income
+North Dakota,"$200,000+",34.5,Income
+Nebraska,"Less than $15,000",37.0,Income
+Nebraska,"$15,000-$24,999",38.4,Income
+Nebraska,"$25,000-$34,999",36.7,Income
+Nebraska,"$35,000-$49,999",34.5,Income
+Nebraska,"$50,000-$99,999",37.4,Income
+Nebraska,"$100,000-$199,999",33.8,Income
+Nebraska,"$200,000+",28.5,Income
+New Hampshire,"Less than $15,000",43.8,Income
+New Hampshire,"$15,000-$24,999",35.4,Income
+New Hampshire,"$25,000-$34,999",32.4,Income
+New Hampshire,"$35,000-$49,999",36.9,Income
+New Hampshire,"$50,000-$99,999",31.1,Income
+New Hampshire,"$100,000-$199,999",29.8,Income
+New Hampshire,"$200,000+",26.6,Income
+New Jersey,"Less than $15,000",39.0,Income
+New Jersey,"$15,000-$24,999",33.0,Income
+New Jersey,"$25,000-$34,999",33.4,Income
+New Jersey,"$35,000-$49,999",33.2,Income
+New Jersey,"$50,000-$99,999",31.8,Income
+New Jersey,"$100,000-$199,999",31.0,Income
+New Jersey,"$200,000+",22.1,Income
+New Mexico,"Less than $15,000",34.9,Income
+New Mexico,"$15,000-$24,999",37.1,Income
+New Mexico,"$25,000-$34,999",34.4,Income
+New Mexico,"$35,000-$49,999",28.8,Income
+New Mexico,"$50,000-$99,999",34.2,Income
+New Mexico,"$100,000-$199,999",32.6,Income
+New Mexico,"$200,000+",24.8,Income
+Nevada,"Less than $15,000",33.6,Income
+Nevada,"$15,000-$24,999",32.8,Income
+Nevada,"$25,000-$34,999",42.5,Income
+Nevada,"$35,000-$49,999",36.8,Income
+Nevada,"$50,000-$99,999",33.0,Income
+Nevada,"$100,000-$199,999",36.9,Income
+Nevada,"$200,000+",27.5,Income
+New York,"Less than $15,000",32.9,Income
+New York,"$15,000-$24,999",34.2,Income
+New York,"$25,000-$34,999",32.9,Income
+New York,"$35,000-$49,999",32.2,Income
+New York,"$50,000-$99,999",32.1,Income
+New York,"$100,000-$199,999",27.6,Income
+New York,"$200,000+",20.2,Income
+Ohio,"Less than $15,000",41.4,Income
+Ohio,"$15,000-$24,999",43.2,Income
+Ohio,"$25,000-$34,999",39.8,Income
+Ohio,"$35,000-$49,999",41.5,Income
+Ohio,"$50,000-$99,999",39.0,Income
+Ohio,"$100,000-$199,999",37.5,Income
+Ohio,"$200,000+",30.0,Income
+Oklahoma,"Less than $15,000",43.3,Income
+Oklahoma,"$15,000-$24,999",38.6,Income
+Oklahoma,"$25,000-$34,999",43.0,Income
+Oklahoma,"$35,000-$49,999",42.4,Income
+Oklahoma,"$50,000-$99,999",39.4,Income
+Oklahoma,"$100,000-$199,999",41.8,Income
+Oklahoma,"$200,000+",35.7,Income
+Oregon,"Less than $15,000",40.6,Income
+Oregon,"$15,000-$24,999",36.7,Income
+Oregon,"$25,000-$34,999",29.7,Income
+Oregon,"$35,000-$49,999",30.5,Income
+Oregon,"$50,000-$99,999",33.3,Income
+Oregon,"$100,000-$199,999",29.2,Income
+Oregon,"$200,000+",25.4,Income
+Pennsylvania,"Less than $15,000",32.3,Income
+Pennsylvania,"$15,000-$24,999",43.1,Income
+Pennsylvania,"$25,000-$34,999",38.8,Income
+Pennsylvania,"$35,000-$49,999",33.1,Income
+Pennsylvania,"$50,000-$99,999",35.2,Income
+Pennsylvania,"$100,000-$199,999",32.5,Income
+Pennsylvania,"$200,000+",23.8,Income
+Rhode Island,"Less than $15,000",32.1,Income
+Rhode Island,"$15,000-$24,999",35.5,Income
+Rhode Island,"$25,000-$34,999",34.1,Income
+Rhode Island,"$35,000-$49,999",29.5,Income
+Rhode Island,"$50,000-$99,999",34.8,Income
+Rhode Island,"$100,000-$199,999",25.7,Income
+Rhode Island,"$200,000+",24.2,Income
+South Carolina,"Less than $15,000",39.5,Income
+South Carolina,"$15,000-$24,999",37.2,Income
+South Carolina,"$25,000-$34,999",40.0,Income
+South Carolina,"$35,000-$49,999",39.8,Income
+South Carolina,"$50,000-$99,999",35.9,Income
+South Carolina,"$100,000-$199,999",34.1,Income
+South Carolina,"$200,000+",28.5,Income
+South Dakota,"Less than $15,000",29.3,Income
+South Dakota,"$15,000-$24,999",38.9,Income
+South Dakota,"$25,000-$34,999",36.3,Income
+South Dakota,"$35,000-$49,999",42.0,Income
+South Dakota,"$50,000-$99,999",41.0,Income
+South Dakota,"$100,000-$199,999",29.4,Income
+South Dakota,"$200,000+",32.3,Income
+Tennessee,"Less than $15,000",44.1,Income
+Tennessee,"$15,000-$24,999",45.2,Income
+Tennessee,"$25,000-$34,999",39.1,Income
+Tennessee,"$35,000-$49,999",40.3,Income
+Tennessee,"$50,000-$99,999",41.6,Income
+Tennessee,"$100,000-$199,999",37.9,Income
+Tennessee,"$200,000+",29.2,Income
+Texas,"Less than $15,000",41.4,Income
+Texas,"$15,000-$24,999",39.4,Income
+Texas,"$25,000-$34,999",38.1,Income
+Texas,"$35,000-$49,999",34.5,Income
+Texas,"$50,000-$99,999",36.8,Income
+Texas,"$100,000-$199,999",38.8,Income
+Texas,"$200,000+",24.1,Income
+Utah,"Less than $15,000",33.4,Income
+Utah,"$15,000-$24,999",36.1,Income
+Utah,"$25,000-$34,999",33.1,Income
+Utah,"$35,000-$49,999",30.8,Income
+Utah,"$50,000-$99,999",34.6,Income
+Utah,"$100,000-$199,999",30.4,Income
+Utah,"$200,000+",21.9,Income
+Virginia,"Less than $15,000",40.3,Income
+Virginia,"$15,000-$24,999",37.9,Income
+Virginia,"$25,000-$34,999",42.0,Income
+Virginia,"$35,000-$49,999",37.3,Income
+Virginia,"$50,000-$99,999",37.4,Income
+Virginia,"$100,000-$199,999",34.8,Income
+Virginia,"$200,000+",26.4,Income
+Virgin Islands,"Less than $15,000",,Income
+Virgin Islands,"$15,000-$24,999",28.4,Income
+Virgin Islands,"$25,000-$34,999",,Income
+Virgin Islands,"$35,000-$49,999",46.6,Income
+Virgin Islands,"$50,000-$99,999",40.2,Income
+Virgin Islands,"$100,000-$199,999",38.0,Income
+Virgin Islands,"$200,000+",,Income
+Vermont,"Less than $15,000",27.8,Income
+Vermont,"$15,000-$24,999",32.6,Income
+Vermont,"$25,000-$34,999",34.1,Income
+Vermont,"$35,000-$49,999",32.3,Income
+Vermont,"$50,000-$99,999",27.4,Income
+Vermont,"$100,000-$199,999",25.3,Income
+Vermont,"$200,000+",17.0,Income
+Washington,"Less than $15,000",36.9,Income
+Washington,"$15,000-$24,999",36.4,Income
+Washington,"$25,000-$34,999",36.3,Income
+Washington,"$35,000-$49,999",34.8,Income
+Washington,"$50,000-$99,999",34.6,Income
+Washington,"$100,000-$199,999",30.3,Income
+Washington,"$200,000+",22.9,Income
+Wisconsin,"Less than $15,000",42.8,Income
+Wisconsin,"$15,000-$24,999",41.5,Income
+Wisconsin,"$25,000-$34,999",40.9,Income
+Wisconsin,"$35,000-$49,999",38.3,Income
+Wisconsin,"$50,000-$99,999",40.5,Income
+Wisconsin,"$100,000-$199,999",36.9,Income
+Wisconsin,"$200,000+",28.2,Income
+West Virginia,"Less than $15,000",36.8,Income
+West Virginia,"$15,000-$24,999",40.8,Income
+West Virginia,"$25,000-$34,999",40.0,Income
+West Virginia,"$35,000-$49,999",41.4,Income
+West Virginia,"$50,000-$99,999",43.3,Income
+West Virginia,"$100,000-$199,999",43.5,Income
+West Virginia,"$200,000+",32.8,Income
+Wyoming,"Less than $15,000",34.4,Income
+Wyoming,"$15,000-$24,999",36.6,Income
+Wyoming,"$25,000-$34,999",39.0,Income
+Wyoming,"$35,000-$49,999",32.4,Income
+Wyoming,"$50,000-$99,999",34.3,Income
+Wyoming,"$100,000-$199,999",32.9,Income
+Wyoming,"$200,000+",33.8,Income

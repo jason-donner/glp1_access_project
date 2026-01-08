@@ -1,0 +1,1522 @@
+<?xml version='1.0' encoding='utf-8' ?>
+
+<!-- build 20253.25.1210.1815                               -->
+<workbook original-version='18.1' source-build='2025.3.1 (20253.25.1210.1815)' source-platform='win' version='18.1' xmlns:user='http://www.tableausoftware.com/xml/user'>
+  <document-format-change-manifest>
+    <AccessibleZoneTabOrder />
+    <AnimationOnByDefault />
+    <AutoCreateAndUpdateDSDPhoneLayouts />
+    <CustomReferenceLineTooltips />
+    <MapboxVectorStylesAndLayers />
+    <MarkAnimation />
+    <ObjectModelEncapsulateLegacy />
+    <ObjectModelExtractV2 />
+    <ObjectModelTableType />
+    <SchemaViewerObjectModel />
+    <SetMembershipControl />
+    <SheetIdentifierTracking />
+    <SortTagCleanup />
+    <_.fcp.VConnDownstreamExtractsWithWarnings.true...VConnDownstreamExtractsWithWarnings />
+    <WindowsPersistSimpleIdentifiers />
+    <WorksheetBackgroundTransparency />
+  </document-format-change-manifest>
+  <preferences>
+    <preference name='ui.encoding.shelf.height' value='24' />
+    <preference name='ui.shelf.height' value='26' />
+  </preferences>
+  <datasources>
+    <datasource hasconnection='false' inline='true' name='Parameters' version='18.1'>
+      <aliases enabled='yes' />
+      <column caption='p.Selected_State' datatype='string' name='[Parameter 1]' param-domain-type='any' role='measure' type='nominal' value='&quot;Alabama&quot;'>
+        <calculation class='tableau' formula='&quot;Alabama&quot;' />
+      </column>
+    </datasource>
+    <datasource caption='GLP1_State_Master' inline='true' name='federated.12vaali0vv9pwl17y45f70ggm9c0' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='GLP1_State_Master' name='textscan.0qa587b039xa1a1790ib10lobtmm'>
+            <connection class='textscan' directory='C:/Users/Jason/Desktop/GLP1_Access_Project/data/processed' filename='GLP1_State_Master.csv' password='' server='' />
+          </named-connection>
+        </named-connections>
+        <relation type='collection'>
+          <relation connection='textscan.0qa587b039xa1a1790ib10lobtmm' name='GLP1_State_Master.csv' table='[GLP1_State_Master#csv]' type='table'>
+            <columns character-set='UTF-8' header='yes' locale='en_US' separator=','>
+              <column datatype='string' name='State' ordinal='0' />
+              <column datatype='real' name='Obesity_Pct' ordinal='1' />
+              <column datatype='real' name='Median_Household_Income' ordinal='2' />
+              <column datatype='boolean' name='Medicaid_Covers_GLP1' ordinal='3' />
+              <column datatype='real' name='Weeks_Income_for_Wegovy' ordinal='4' />
+            </columns>
+          </relation>
+          <relation connection='textscan.0qa587b039xa1a1790ib10lobtmm' name='GLP1_Demographics.csv' table='[GLP1_Demographics#csv]' type='table'>
+            <columns character-set='UTF-8' header='yes' locale='en_US' separator=','>
+              <column datatype='string' name='State' ordinal='0' />
+              <column datatype='string' name='Group' ordinal='1' />
+              <column datatype='real' name='Obesity_Rate' ordinal='2' />
+              <column datatype='string' name='Category' ordinal='3' />
+            </columns>
+          </relation>
+        </relation>
+        <cols>
+          <map key='[Category]' value='[GLP1_Demographics.csv].[Category]' />
+          <map key='[Group]' value='[GLP1_Demographics.csv].[Group]' />
+          <map key='[Median_Household_Income]' value='[GLP1_State_Master.csv].[Median_Household_Income]' />
+          <map key='[Medicaid_Covers_GLP1]' value='[GLP1_State_Master.csv].[Medicaid_Covers_GLP1]' />
+          <map key='[Obesity_Pct]' value='[GLP1_State_Master.csv].[Obesity_Pct]' />
+          <map key='[Obesity_Rate]' value='[GLP1_Demographics.csv].[Obesity_Rate]' />
+          <map key='[State (GLP1_Demographics.csv)]' value='[GLP1_Demographics.csv].[State]' />
+          <map key='[State]' value='[GLP1_State_Master.csv].[State]' />
+          <map key='[Weeks_Income_for_Wegovy]' value='[GLP1_State_Master.csv].[Weeks_Income_for_Wegovy]' />
+        </cols>
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[GLP1_State_Master.csv]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='character-set'>&quot;UTF-8&quot;</attribute>
+              <attribute datatype='string' name='collation'>&quot;en_US&quot;</attribute>
+              <attribute datatype='string' name='field-delimiter'>&quot;,&quot;</attribute>
+              <attribute datatype='string' name='header-row'>&quot;true&quot;</attribute>
+              <attribute datatype='string' name='locale'>&quot;en_US&quot;</attribute>
+              <attribute datatype='string' name='single-char'>&quot;&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[GLP1_Demographics.csv]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='character-set'>&quot;UTF-8&quot;</attribute>
+              <attribute datatype='string' name='collation'>&quot;en_US&quot;</attribute>
+              <attribute datatype='string' name='field-delimiter'>&quot;,&quot;</attribute>
+              <attribute datatype='string' name='header-row'>&quot;true&quot;</attribute>
+              <attribute datatype='string' name='locale'>&quot;en_US&quot;</attribute>
+              <attribute datatype='string' name='single-char'>&quot;&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>State</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[State]</local-name>
+            <parent-name>[GLP1_State_Master.csv]</parent-name>
+            <remote-alias>State</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <object-id>[GLP1_State_Master.csv_E9D2FEA5452748DAA86E8EFFC1162EB0]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Obesity_Pct</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Obesity_Pct]</local-name>
+            <parent-name>[GLP1_State_Master.csv]</parent-name>
+            <remote-alias>Obesity_Pct</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[GLP1_State_Master.csv_E9D2FEA5452748DAA86E8EFFC1162EB0]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Median_Household_Income</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Median_Household_Income]</local-name>
+            <parent-name>[GLP1_State_Master.csv]</parent-name>
+            <remote-alias>Median_Household_Income</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[GLP1_State_Master.csv_E9D2FEA5452748DAA86E8EFFC1162EB0]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Medicaid_Covers_GLP1</remote-name>
+            <remote-type>11</remote-type>
+            <local-name>[Medicaid_Covers_GLP1]</local-name>
+            <parent-name>[GLP1_State_Master.csv]</parent-name>
+            <remote-alias>Medicaid_Covers_GLP1</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>boolean</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[GLP1_State_Master.csv_E9D2FEA5452748DAA86E8EFFC1162EB0]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Weeks_Income_for_Wegovy</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Weeks_Income_for_Wegovy]</local-name>
+            <parent-name>[GLP1_State_Master.csv]</parent-name>
+            <remote-alias>Weeks_Income_for_Wegovy</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[GLP1_State_Master.csv_E9D2FEA5452748DAA86E8EFFC1162EB0]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>State</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[State (GLP1_Demographics.csv)]</local-name>
+            <parent-name>[GLP1_Demographics.csv]</parent-name>
+            <remote-alias>State</remote-alias>
+            <ordinal>5</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <object-id>[GLP1_Demographics.csv_FE8785C3C19249B1B14DA90FB3B5C380]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Group</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Group]</local-name>
+            <parent-name>[GLP1_Demographics.csv]</parent-name>
+            <remote-alias>Group</remote-alias>
+            <ordinal>6</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <object-id>[GLP1_Demographics.csv_FE8785C3C19249B1B14DA90FB3B5C380]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Obesity_Rate</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Obesity_Rate]</local-name>
+            <parent-name>[GLP1_Demographics.csv]</parent-name>
+            <remote-alias>Obesity_Rate</remote-alias>
+            <ordinal>7</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[GLP1_Demographics.csv_FE8785C3C19249B1B14DA90FB3B5C380]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Category</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Category]</local-name>
+            <parent-name>[GLP1_Demographics.csv]</parent-name>
+            <remote-alias>Category</remote-alias>
+            <ordinal>8</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <object-id>[GLP1_Demographics.csv_FE8785C3C19249B1B14DA90FB3B5C380]</object-id>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <column caption='Burden_Pct_List_Price' datatype='real' default-format='p0%' name='[Calculation_0123720185229312]' role='measure' type='quantitative'>
+        <calculation class='tableau' formula='1349 / ([Median_Household_Income] / 12)' />
+      </column>
+      <column caption='Burden_Pct_Cash_Price' datatype='real' default-format='p0%' name='[Calculation_0123720185413633]' role='measure' type='quantitative'>
+        <calculation class='tableau' formula='550 / ([Median_Household_Income] / 12)' />
+      </column>
+      <column caption='Burden_Gap_Pct' datatype='real' default-format='p0%' name='[Calculation_0123720232554498]' role='measure' type='quantitative'>
+        <calculation class='tableau' formula='[Calculation_0123720185229312] - [Calculation_0123720185413633]' />
+      </column>
+      <column caption='Map Highlight' datatype='boolean' name='[Calculation_0849947983020032]' role='dimension' type='nominal'>
+        <calculation class='tableau' formula='[State] = [Parameters].[Parameter 1]' />
+      </column>
+      <column caption='Heatmap_Highlight' datatype='boolean' name='[Calculation_0849947984637953]' role='dimension' type='nominal'>
+        <calculation class='tableau' formula='[State (GLP1_Demographics.csv)] = [Parameters].[Parameter 1]' />
+      </column>
+      <column caption='Median Household Income' datatype='real' default-format='c&quot;$&quot;#,##0;(&quot;$&quot;#,##0)' name='[Median_Household_Income]' role='measure' type='quantitative' />
+      <column caption='Medicaid Covers GLP1' datatype='boolean' name='[Medicaid_Covers_GLP1]' role='dimension' type='nominal' />
+      <column caption='Obesity Pct' datatype='real' name='[Obesity_Pct]' role='measure' type='quantitative' />
+      <column caption='Obesity Rate' datatype='real' default-format='*0&quot;%&quot;' name='[Obesity_Rate]' role='measure' type='quantitative' />
+      <column caption='State_Link' datatype='string' name='[State (GLP1_Demographics.csv)]' role='dimension' semantic-role='[State].[Name]' type='nominal' />
+      <column datatype='string' name='[State]' role='dimension' semantic-role='[State].[Name]' type='nominal' />
+      <column caption='Weeks Income for Wegovy' datatype='real' name='[Weeks_Income_for_Wegovy]' role='measure' type='quantitative' />
+      <column caption='GLP1_Demographics.csv' datatype='table' name='[__tableau_internal_object_id__].[GLP1_Demographics.csv_FE8785C3C19249B1B14DA90FB3B5C380]' role='measure' type='quantitative' />
+      <column caption='GLP1_State_Master.csv' datatype='table' name='[__tableau_internal_object_id__].[GLP1_State_Master.csv_E9D2FEA5452748DAA86E8EFFC1162EB0]' role='measure' type='quantitative' />
+      <column-instance column='[Medicaid_Covers_GLP1]' derivation='None' name='[none:Medicaid_Covers_GLP1:nk]' pivot='key' type='nominal' />
+      <column-instance column='[Calculation_0123720185229312]' derivation='Sum' name='[sum:Calculation_0123720185229312:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Calculation_0123720185413633]' derivation='Sum' name='[sum:Calculation_0123720185413633:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Median_Household_Income]' derivation='Sum' name='[sum:Median_Household_Income:qk]' pivot='key' type='quantitative' />
+      <extract _.fcp.VConnDownstreamExtractsWithWarnings.true...user-specific='false' count='-1' enabled='true' object-id='' units='records'>
+        <connection access_mode='readonly' author-locale='en_US' class='hyper' dbname='C:/Users/Jason/AppData/Local/Temp/TableauTemp/#TableauTemp_0cw5pid03zaclk1aszuqm180397c.hyper' default-settings='hyper' schema='Extract' sslmode='' tablename='Extract' update-time='01/08/2026 12:41:44 AM' username='tableau_internal_user'>
+          <relation type='collection'>
+            <relation name='GLP1_State_Master.csv_E9D2FEA5452748DAA86E8EFFC1162EB0' table='[Extract].[GLP1_State_Master.csv_E9D2FEA5452748DAA86E8EFFC1162EB0]' type='table' />
+            <relation name='GLP1_Demographics.csv_FE8785C3C19249B1B14DA90FB3B5C380' table='[Extract].[GLP1_Demographics.csv_FE8785C3C19249B1B14DA90FB3B5C380]' type='table' />
+          </relation>
+          <cols>
+            <map key='[Category]' value='[GLP1_Demographics.csv_FE8785C3C19249B1B14DA90FB3B5C380].[Category]' />
+            <map key='[Group]' value='[GLP1_Demographics.csv_FE8785C3C19249B1B14DA90FB3B5C380].[Group]' />
+            <map key='[Median_Household_Income]' value='[GLP1_State_Master.csv_E9D2FEA5452748DAA86E8EFFC1162EB0].[Median_Household_Income]' />
+            <map key='[Medicaid_Covers_GLP1]' value='[GLP1_State_Master.csv_E9D2FEA5452748DAA86E8EFFC1162EB0].[Medicaid_Covers_GLP1]' />
+            <map key='[Obesity_Pct]' value='[GLP1_State_Master.csv_E9D2FEA5452748DAA86E8EFFC1162EB0].[Obesity_Pct]' />
+            <map key='[Obesity_Rate]' value='[GLP1_Demographics.csv_FE8785C3C19249B1B14DA90FB3B5C380].[Obesity_Rate]' />
+            <map key='[State (GLP1_Demographics.csv)]' value='[GLP1_Demographics.csv_FE8785C3C19249B1B14DA90FB3B5C380].[State]' />
+            <map key='[State]' value='[GLP1_State_Master.csv_E9D2FEA5452748DAA86E8EFFC1162EB0].[State]' />
+            <map key='[Weeks_Income_for_Wegovy]' value='[GLP1_State_Master.csv_E9D2FEA5452748DAA86E8EFFC1162EB0].[Weeks_Income_for_Wegovy]' />
+          </cols>
+          <metadata-records>
+            <metadata-record class='column'>
+              <remote-name>State</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[State]</local-name>
+              <parent-name>[GLP1_State_Master.csv_E9D2FEA5452748DAA86E8EFFC1162EB0]</parent-name>
+              <remote-alias>State</remote-alias>
+              <ordinal>0</ordinal>
+              <family>GLP1_State_Master.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>54</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEN_RUS' />
+              <object-id>[GLP1_State_Master.csv_E9D2FEA5452748DAA86E8EFFC1162EB0]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Obesity_Pct</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[Obesity_Pct]</local-name>
+              <parent-name>[GLP1_State_Master.csv_E9D2FEA5452748DAA86E8EFFC1162EB0]</parent-name>
+              <remote-alias>Obesity_Pct</remote-alias>
+              <ordinal>1</ordinal>
+              <family>GLP1_State_Master.csv</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>41</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[GLP1_State_Master.csv_E9D2FEA5452748DAA86E8EFFC1162EB0]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Median_Household_Income</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[Median_Household_Income]</local-name>
+              <parent-name>[GLP1_State_Master.csv_E9D2FEA5452748DAA86E8EFFC1162EB0]</parent-name>
+              <remote-alias>Median_Household_Income</remote-alias>
+              <ordinal>2</ordinal>
+              <family>GLP1_State_Master.csv</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>53</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[GLP1_State_Master.csv_E9D2FEA5452748DAA86E8EFFC1162EB0]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Medicaid_Covers_GLP1</remote-name>
+              <remote-type>11</remote-type>
+              <local-name>[Medicaid_Covers_GLP1]</local-name>
+              <parent-name>[GLP1_State_Master.csv_E9D2FEA5452748DAA86E8EFFC1162EB0]</parent-name>
+              <remote-alias>Medicaid_Covers_GLP1</remote-alias>
+              <ordinal>3</ordinal>
+              <family>GLP1_State_Master.csv</family>
+              <local-type>boolean</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>2</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[GLP1_State_Master.csv_E9D2FEA5452748DAA86E8EFFC1162EB0]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Weeks_Income_for_Wegovy</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[Weeks_Income_for_Wegovy]</local-name>
+              <parent-name>[GLP1_State_Master.csv_E9D2FEA5452748DAA86E8EFFC1162EB0]</parent-name>
+              <remote-alias>Weeks_Income_for_Wegovy</remote-alias>
+              <ordinal>4</ordinal>
+              <family>GLP1_State_Master.csv</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>53</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[GLP1_State_Master.csv_E9D2FEA5452748DAA86E8EFFC1162EB0]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>State</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[State (GLP1_Demographics.csv)]</local-name>
+              <parent-name>[GLP1_Demographics.csv_FE8785C3C19249B1B14DA90FB3B5C380]</parent-name>
+              <remote-alias>State</remote-alias>
+              <ordinal>5</ordinal>
+              <family>GLP1_Demographics.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>52</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEN_RUS' />
+              <object-id>[GLP1_Demographics.csv_FE8785C3C19249B1B14DA90FB3B5C380]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Group</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Group]</local-name>
+              <parent-name>[GLP1_Demographics.csv_FE8785C3C19249B1B14DA90FB3B5C380]</parent-name>
+              <remote-alias>Group</remote-alias>
+              <ordinal>6</ordinal>
+              <family>GLP1_Demographics.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>11</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEN_RUS' />
+              <object-id>[GLP1_Demographics.csv_FE8785C3C19249B1B14DA90FB3B5C380]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Obesity_Rate</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[Obesity_Rate]</local-name>
+              <parent-name>[GLP1_Demographics.csv_FE8785C3C19249B1B14DA90FB3B5C380]</parent-name>
+              <remote-alias>Obesity_Rate</remote-alias>
+              <ordinal>7</ordinal>
+              <family>GLP1_Demographics.csv</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>256</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[GLP1_Demographics.csv_FE8785C3C19249B1B14DA90FB3B5C380]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Category</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Category]</local-name>
+              <parent-name>[GLP1_Demographics.csv_FE8785C3C19249B1B14DA90FB3B5C380]</parent-name>
+              <remote-alias>Category</remote-alias>
+              <ordinal>8</ordinal>
+              <family>GLP1_Demographics.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>2</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEN_RUS' />
+              <object-id>[GLP1_Demographics.csv_FE8785C3C19249B1B14DA90FB3B5C380]</object-id>
+            </metadata-record>
+          </metadata-records>
+        </connection>
+      </extract>
+      <layout dim-ordering='alphabetic' measure-ordering='alphabetic' show-structure='true' />
+      <style>
+        <style-rule element='mark'>
+          <encoding attr='color' field='[none:Medicaid_Covers_GLP1:nk]' type='palette'>
+            <map to='#55aaff'>
+              <bucket>true</bucket>
+            </map>
+            <map to='#ffaa00'>
+              <bucket>false</bucket>
+            </map>
+          </encoding>
+          <encoding attr='color' field='[:Measure Names]' type='palette'>
+            <map to='#0055ff'>
+              <bucket>&quot;[federated.12vaali0vv9pwl17y45f70ggm9c0].[sum:Calculation_0123720185413633:qk]&quot;</bucket>
+            </map>
+            <map to='#aa0000'>
+              <bucket>&quot;[federated.12vaali0vv9pwl17y45f70ggm9c0].[sum:Calculation_0123720185229312:qk]&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;[federated.12vaali0vv9pwl17y45f70ggm9c0].[sum:Median_Household_Income:qk]&quot;</bucket>
+            </map>
+          </encoding>
+        </style-rule>
+      </style>
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;United States&quot;' />
+      </semantic-values>
+      <datasource-dependencies datasource='Parameters'>
+        <column caption='p.Selected_State' datatype='string' name='[Parameter 1]' param-domain-type='any' role='measure' type='nominal' value='&quot;Alabama&quot;'>
+          <calculation class='tableau' formula='&quot;Alabama&quot;' />
+        </column>
+      </datasource-dependencies>
+      <object-graph>
+        <objects>
+          <object caption='GLP1_Demographics.csv' id='GLP1_Demographics.csv_FE8785C3C19249B1B14DA90FB3B5C380'>
+            <properties context=''>
+              <relation connection='textscan.0qa587b039xa1a1790ib10lobtmm' name='GLP1_Demographics.csv' table='[GLP1_Demographics#csv]' type='table'>
+                <columns character-set='UTF-8' header='yes' locale='en_US' separator=','>
+                  <column datatype='string' name='State' ordinal='0' />
+                  <column datatype='string' name='Group' ordinal='1' />
+                  <column datatype='real' name='Obesity_Rate' ordinal='2' />
+                  <column datatype='string' name='Category' ordinal='3' />
+                </columns>
+              </relation>
+            </properties>
+            <properties context='extract'>
+              <relation name='GLP1_Demographics.csv_FE8785C3C19249B1B14DA90FB3B5C380' table='[Extract].[GLP1_Demographics.csv_FE8785C3C19249B1B14DA90FB3B5C380]' type='table' />
+            </properties>
+          </object>
+          <object caption='GLP1_State_Master.csv' id='GLP1_State_Master.csv_E9D2FEA5452748DAA86E8EFFC1162EB0'>
+            <properties context=''>
+              <relation connection='textscan.0qa587b039xa1a1790ib10lobtmm' name='GLP1_State_Master.csv' table='[GLP1_State_Master#csv]' type='table'>
+                <columns character-set='UTF-8' header='yes' locale='en_US' separator=','>
+                  <column datatype='string' name='State' ordinal='0' />
+                  <column datatype='real' name='Obesity_Pct' ordinal='1' />
+                  <column datatype='real' name='Median_Household_Income' ordinal='2' />
+                  <column datatype='boolean' name='Medicaid_Covers_GLP1' ordinal='3' />
+                  <column datatype='real' name='Weeks_Income_for_Wegovy' ordinal='4' />
+                </columns>
+              </relation>
+            </properties>
+            <properties context='extract'>
+              <relation name='GLP1_State_Master.csv_E9D2FEA5452748DAA86E8EFFC1162EB0' table='[Extract].[GLP1_State_Master.csv_E9D2FEA5452748DAA86E8EFFC1162EB0]' type='table' />
+            </properties>
+          </object>
+        </objects>
+        <relationships>
+          <relationship>
+            <expression op='='>
+              <expression op='[State]' />
+              <expression op='[State (GLP1_Demographics.csv)]' />
+            </expression>
+            <first-end-point object-id='GLP1_State_Master.csv_E9D2FEA5452748DAA86E8EFFC1162EB0' />
+            <second-end-point object-id='GLP1_Demographics.csv_FE8785C3C19249B1B14DA90FB3B5C380' />
+          </relationship>
+        </relationships>
+      </object-graph>
+    </datasource>
+  </datasources>
+  <mapsources>
+    <mapsource name='Tableau' />
+  </mapsources>
+  <shared-views>
+    <shared-view name='federated.12vaali0vv9pwl17y45f70ggm9c0'>
+      <datasources>
+        <datasource caption='GLP1_State_Master' name='federated.12vaali0vv9pwl17y45f70ggm9c0' />
+      </datasources>
+      <datasource-dependencies datasource='federated.12vaali0vv9pwl17y45f70ggm9c0'>
+        <column datatype='string' name='[State]' role='dimension' semantic-role='[State].[Name]' type='nominal' />
+        <column-instance column='[State]' derivation='None' name='[none:State:nk]' pivot='key' type='nominal' />
+      </datasource-dependencies>
+      <filter class='categorical' column='[federated.12vaali0vv9pwl17y45f70ggm9c0].[none:State:nk]'>
+        <groupfilter function='union' user:ui-domain='database' user:ui-enumeration='inclusive' user:ui-marker='enumerate'>
+          <groupfilter function='member' level='[none:State:nk]' member='&quot;Alabama&quot;' />
+          <groupfilter function='member' level='[none:State:nk]' member='&quot;Alaska&quot;' />
+          <groupfilter function='member' level='[none:State:nk]' member='&quot;Arizona&quot;' />
+          <groupfilter function='member' level='[none:State:nk]' member='&quot;Arkansas&quot;' />
+          <groupfilter function='member' level='[none:State:nk]' member='&quot;California&quot;' />
+          <groupfilter function='member' level='[none:State:nk]' member='&quot;Colorado&quot;' />
+          <groupfilter function='member' level='[none:State:nk]' member='&quot;Connecticut&quot;' />
+          <groupfilter function='member' level='[none:State:nk]' member='&quot;Delaware&quot;' />
+          <groupfilter function='member' level='[none:State:nk]' member='&quot;District of Columbia&quot;' />
+          <groupfilter function='member' level='[none:State:nk]' member='&quot;Florida&quot;' />
+          <groupfilter function='member' level='[none:State:nk]' member='&quot;Georgia&quot;' />
+          <groupfilter function='member' level='[none:State:nk]' member='&quot;Hawaii&quot;' />
+          <groupfilter function='member' level='[none:State:nk]' member='&quot;Idaho&quot;' />
+          <groupfilter function='member' level='[none:State:nk]' member='&quot;Illinois&quot;' />
+          <groupfilter function='member' level='[none:State:nk]' member='&quot;Indiana&quot;' />
+          <groupfilter function='member' level='[none:State:nk]' member='&quot;Iowa&quot;' />
+          <groupfilter function='member' level='[none:State:nk]' member='&quot;Kansas&quot;' />
+          <groupfilter function='member' level='[none:State:nk]' member='&quot;Kentucky&quot;' />
+          <groupfilter function='member' level='[none:State:nk]' member='&quot;Louisiana&quot;' />
+          <groupfilter function='member' level='[none:State:nk]' member='&quot;Maine&quot;' />
+          <groupfilter function='member' level='[none:State:nk]' member='&quot;Maryland&quot;' />
+          <groupfilter function='member' level='[none:State:nk]' member='&quot;Massachusetts&quot;' />
+          <groupfilter function='member' level='[none:State:nk]' member='&quot;Michigan&quot;' />
+          <groupfilter function='member' level='[none:State:nk]' member='&quot;Minnesota&quot;' />
+          <groupfilter function='member' level='[none:State:nk]' member='&quot;Mississippi&quot;' />
+          <groupfilter function='member' level='[none:State:nk]' member='&quot;Missouri&quot;' />
+          <groupfilter function='member' level='[none:State:nk]' member='&quot;Montana&quot;' />
+          <groupfilter function='member' level='[none:State:nk]' member='&quot;Nebraska&quot;' />
+          <groupfilter function='member' level='[none:State:nk]' member='&quot;Nevada&quot;' />
+          <groupfilter function='member' level='[none:State:nk]' member='&quot;New Hampshire&quot;' />
+          <groupfilter function='member' level='[none:State:nk]' member='&quot;New Jersey&quot;' />
+          <groupfilter function='member' level='[none:State:nk]' member='&quot;New Mexico&quot;' />
+          <groupfilter function='member' level='[none:State:nk]' member='&quot;New York&quot;' />
+          <groupfilter function='member' level='[none:State:nk]' member='&quot;North Carolina&quot;' />
+          <groupfilter function='member' level='[none:State:nk]' member='&quot;North Dakota&quot;' />
+          <groupfilter function='member' level='[none:State:nk]' member='&quot;Ohio&quot;' />
+          <groupfilter function='member' level='[none:State:nk]' member='&quot;Oklahoma&quot;' />
+          <groupfilter function='member' level='[none:State:nk]' member='&quot;Oregon&quot;' />
+          <groupfilter function='member' level='[none:State:nk]' member='&quot;Pennsylvania&quot;' />
+          <groupfilter function='member' level='[none:State:nk]' member='&quot;Rhode Island&quot;' />
+          <groupfilter function='member' level='[none:State:nk]' member='&quot;South Carolina&quot;' />
+          <groupfilter function='member' level='[none:State:nk]' member='&quot;South Dakota&quot;' />
+          <groupfilter function='member' level='[none:State:nk]' member='&quot;Tennessee&quot;' />
+          <groupfilter function='member' level='[none:State:nk]' member='&quot;Texas&quot;' />
+          <groupfilter function='member' level='[none:State:nk]' member='&quot;Utah&quot;' />
+          <groupfilter function='member' level='[none:State:nk]' member='&quot;Vermont&quot;' />
+          <groupfilter function='member' level='[none:State:nk]' member='&quot;Virginia&quot;' />
+          <groupfilter function='member' level='[none:State:nk]' member='&quot;Washington&quot;' />
+          <groupfilter function='member' level='[none:State:nk]' member='&quot;West Virginia&quot;' />
+          <groupfilter function='member' level='[none:State:nk]' member='&quot;Wisconsin&quot;' />
+          <groupfilter function='member' level='[none:State:nk]' member='&quot;Wyoming&quot;' />
+        </groupfilter>
+      </filter>
+    </shared-view>
+  </shared-views>
+  <actions>
+    <action caption='Highlight1' name='[Action1_22DCA4D7CE87421FABB4D8B400A0A854]'>
+      <activation auto-clear='true' type='on-select' />
+      <source dashboard='GLP-1 Equity Analysis' type='sheet' />
+      <command command='tsc:brush'>
+        <param name='field-captions' value='State' />
+        <param name='target' value='GLP-1 Equity Analysis' />
+      </command>
+    </action>
+  </actions>
+  <worksheets>
+    <worksheet name='01_Map_Prevalence'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run fontcolor='#000000' fontname='Benton Sans Book'>Act 1: The Geography of Need (Obesity Prevalence)</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='GLP1_State_Master' name='federated.12vaali0vv9pwl17y45f70ggm9c0' />
+            <datasource name='Parameters' />
+          </datasources>
+          <mapsources>
+            <mapsource name='Tableau' />
+          </mapsources>
+          <datasource-dependencies datasource='Parameters'>
+            <column caption='p.Selected_State' datatype='string' name='[Parameter 1]' param-domain-type='any' role='measure' type='nominal' value='&quot;Alabama&quot;'>
+              <calculation class='tableau' formula='&quot;Alabama&quot;' />
+            </column>
+          </datasource-dependencies>
+          <datasource-dependencies datasource='federated.12vaali0vv9pwl17y45f70ggm9c0'>
+            <column caption='Map Highlight' datatype='boolean' name='[Calculation_0849947983020032]' role='dimension' type='nominal'>
+              <calculation class='tableau' formula='[State] = [Parameters].[Parameter 1]' />
+            </column>
+            <column caption='Medicaid Covers GLP1' datatype='boolean' name='[Medicaid_Covers_GLP1]' role='dimension' type='nominal' />
+            <column caption='Obesity Pct' datatype='real' name='[Obesity_Pct]' role='measure' type='quantitative' />
+            <column datatype='string' name='[State]' role='dimension' semantic-role='[State].[Name]' type='nominal' />
+            <column-instance column='[Calculation_0849947983020032]' derivation='None' name='[none:Calculation_0849947983020032:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Medicaid_Covers_GLP1]' derivation='None' name='[none:Medicaid_Covers_GLP1:nk]' pivot='key' type='nominal' />
+            <column-instance column='[State]' derivation='None' name='[none:State:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Obesity_Pct]' derivation='Sum' name='[sum:Obesity_Pct:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <slices>
+            <column>[federated.12vaali0vv9pwl17y45f70ggm9c0].[none:State:nk]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='axis'>
+            <encoding attr='space' class='0' field='[federated.12vaali0vv9pwl17y45f70ggm9c0].[Longitude (generated)]' field-type='quantitative' max='36452272.480223343' min='18424450.567790326' projection='EPSG:3857' range-type='fixed' scope='cols' type='space' />
+            <encoding attr='space' class='0' field='[federated.12vaali0vv9pwl17y45f70ggm9c0].[Latitude (generated)]' field-type='quantitative' max='12144760.870253034' min='1848496.95802833' projection='EPSG:3857' range-type='fixed' scope='rows' type='space' />
+          </style-rule>
+          <style-rule element='mark'>
+            <encoding attr='color' field='[federated.12vaali0vv9pwl17y45f70ggm9c0].[sum:Obesity_Pct:qk]' num-steps='5' palette='red_gold_10_0' type='interpolated' />
+          </style-rule>
+          <style-rule element='legend-title-text'>
+            <format attr='color' field='[federated.12vaali0vv9pwl17y45f70ggm9c0].[sum:Obesity_Pct:qk]' value='Obesity %'>
+              <formatted-text>
+                <run>Obesity %</run>
+              </formatted-text>
+            </format>
+          </style-rule>
+          <style-rule element='map-layer'>
+            <format attr='enabled' id='background' value='false' />
+            <format attr='enabled' id='barrier_line-land-polygon' value='false' />
+            <format attr='enabled' id='barrier_line-land-line' value='false' />
+            <format attr='enabled' id='national_park-stroke' value='false' />
+            <format attr='enabled' id='national_park' value='false' />
+            <format attr='enabled' id='parks-stroke' value='false' />
+            <format attr='enabled' id='pitch' value='false' />
+            <format attr='enabled' id='industrial' value='false' />
+            <format attr='enabled' id='built-up-area' value='false' />
+            <format attr='enabled' id='water' value='false' />
+            <format attr='enabled' id='waterway-river-canal' value='false' />
+            <format attr='enabled' id='aeroway-polygon' value='false' />
+            <format attr='enabled' id='aeroway-runway' value='false' />
+            <format attr='enabled' id='aeroway-taxiway' value='false' />
+            <format attr='enabled' id='parks' value='false' />
+            <format attr='enabled' id='landcover_wood' value='false' />
+            <format attr='enabled' id='landcover_scrub' value='false' />
+            <format attr='enabled' id='landcover_grass' value='false' />
+            <format attr='enabled' id='landcover_crop' value='false' />
+            <format attr='enabled' id='Coastline' value='true' />
+            <format attr='enabled' id='admin-1-label-9th-tier' value='false' />
+            <format attr='enabled' id='admin-1-label-8th-tier' value='false' />
+            <format attr='enabled' id='admin-1-label-7th-tier' value='false' />
+            <format attr='enabled' id='admin-1-label-6th-tier' value='false' />
+            <format attr='enabled' id='admin-1-label-5th-tier' value='false' />
+            <format attr='enabled' id='admin-1-label-4th-tier' value='false' />
+            <format attr='enabled' id='admin-1-label-3rd-tier' value='false' />
+            <format attr='enabled' id='admin-1-label-2nd-tier' value='false' />
+            <format attr='enabled' id='admin-1-label-1st-tier' value='false' />
+            <format attr='enabled' id='us-admin-1-label-abbr-3rd-tier' value='false' />
+            <format attr='enabled' id='us-admin-1-label-abbr-2nd-tier' value='false' />
+            <format attr='enabled' id='us-admin-1-label-abbr-1st-tier' value='false' />
+            <format attr='enabled' id='admin-0-label-5th-tier' value='false' />
+            <format attr='enabled' id='admin-0-label-4th-tier' value='false' />
+            <format attr='enabled' id='admin-0-label-3rd-tier' value='false' />
+            <format attr='enabled' id='admin-0-label-2nd-tier' value='false' />
+            <format attr='enabled' id='admin-0-label-1st-tier' value='false' />
+            <format attr='enabled' id='b01002_001e' value='false' />
+            <format attr='enabled' id='b01002_002e' value='false' />
+            <format attr='enabled' id='b01002_003e' value='false' />
+            <format attr='enabled' id='dp02_0001e' value='false' />
+            <format attr='enabled' id='dp02_0015e' value='false' />
+            <format attr='enabled' id='dp03_0027e_plus_dp03_0029e' value='false' />
+            <format attr='enabled' id='dp03_0028e' value='false' />
+            <format attr='enabled' id='dp03_0030e_plus_dp03_0031e' value='false' />
+            <format attr='enabled' id='dp03_0062e' value='false' />
+            <format attr='enabled' id='dp03_0088e' value='false' />
+            <format attr='enabled' id='dp04_0001e' value='false' />
+            <format attr='enabled' id='dp04_0046e' value='false' />
+            <format attr='enabled' id='dp04_0047e' value='false' />
+            <format attr='enabled' id='dp04_0089e' value='false' />
+            <format attr='enabled' id='dp05_0001e' value='false' />
+            <format attr='enabled' id='dp05_0002e_div_dp05_0003e' value='false' />
+            <format attr='enabled' id='dp05_0032e' value='false' />
+            <format attr='enabled' id='dp05_0033e' value='false' />
+            <format attr='enabled' id='dp05_0034e' value='false' />
+            <format attr='enabled' id='dp05_0039e' value='false' />
+            <format attr='enabled' id='dp05_0047e' value='false' />
+            <format attr='enabled' id='dp05_0053e' value='false' />
+            <format attr='enabled' id='dp05_0066e' value='false' />
+            <format attr='enabled' id='dp05_0077e' value='false' />
+          </style-rule>
+          <style-rule element='map'>
+            <format attr='washout' value='0.18000000715255737' />
+            <format attr='map-style' value='normal' />
+          </style-rule>
+          <style-rule element='map-data-layer'>
+            <format attr='palette' value='tableau-map-blue-green-light' />
+            <format attr='geo-area-type' value='State' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Multipolygon' />
+            <encodings>
+              <color column='[federated.12vaali0vv9pwl17y45f70ggm9c0].[sum:Obesity_Pct:qk]' />
+              <lod column='[federated.12vaali0vv9pwl17y45f70ggm9c0].[none:State:nk]' />
+              <lod column='[federated.12vaali0vv9pwl17y45f70ggm9c0].[none:Medicaid_Covers_GLP1:nk]' />
+              <lod column='[federated.12vaali0vv9pwl17y45f70ggm9c0].[none:Calculation_0849947983020032:nk]' />
+              <geometry column='[federated.12vaali0vv9pwl17y45f70ggm9c0].[Geometry (generated)]' />
+            </encodings>
+            <customized-tooltip>
+              <formatted-text>
+                <run fontcolor='#757575'>Medicaid Covers GLP1:&#9;</run>
+                <run bold='true'><![CDATA[<[federated.12vaali0vv9pwl17y45f70ggm9c0].[none:Medicaid_Covers_GLP1:nk]>]]></run>
+                <run>Æ&#10;</run>
+                <run fontcolor='#757575'>State:&#9;</run>
+                <run bold='true'><![CDATA[<[federated.12vaali0vv9pwl17y45f70ggm9c0].[none:State:nk]>]]></run>
+                <run>Æ&#10;</run>
+                <run fontcolor='#757575'>Obesity Pct:&#9;</run>
+                <run bold='true'><![CDATA[<[federated.12vaali0vv9pwl17y45f70ggm9c0].[sum:Obesity_Pct:qk]>%
+]]></run>
+                <run fontcolor='#757575'>Medicaid Status:&#9;</run>
+                <run bold='true'><![CDATA[<[federated.12vaali0vv9pwl17y45f70ggm9c0].[none:Medicaid_Covers_GLP1:nk]>]]></run>
+              </formatted-text>
+            </customized-tooltip>
+          </pane>
+        </panes>
+        <rows>[federated.12vaali0vv9pwl17y45f70ggm9c0].[Latitude (generated)]</rows>
+        <cols>[federated.12vaali0vv9pwl17y45f70ggm9c0].[Longitude (generated)]</cols>
+      </table>
+      <simple-id uuid='{8347A858-3AC1-469C-A7E6-5CEF1FF24F4E}' />
+    </worksheet>
+    <worksheet name='02_Affordability_Dumbbell'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run fontcolor='#000000'>Act 2: The Economic Wall </run>
+            <run>Æ&#10;</run>
+            <run fontcolor='#000000' fontsize='10'>Comparing monthly costs for </run>
+            <run bold='true' fontcolor='#000000' fontsize='10'>Wegovy (Semaglutide)</run>
+            <run fontcolor='#000000' fontsize='10'> against </run>
+            <run bold='true' fontcolor='#000000' fontsize='10'>monthly</run>
+            <run fontcolor='#000000' fontsize='10'>Æ </run>
+            <run bold='true' fontcolor='#000000' fontsize='10'>median household income</run>
+            <run fontcolor='#000000' fontsize='10'>. Pricing sourced from manufacturer website.</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='GLP1_State_Master' name='federated.12vaali0vv9pwl17y45f70ggm9c0' />
+            <datasource name='Parameters' />
+          </datasources>
+          <datasource-dependencies datasource='Parameters'>
+            <column caption='p.Selected_State' datatype='string' name='[Parameter 1]' param-domain-type='any' role='measure' type='nominal' value='&quot;Alabama&quot;'>
+              <calculation class='tableau' formula='&quot;Alabama&quot;' />
+            </column>
+          </datasource-dependencies>
+          <datasource-dependencies datasource='federated.12vaali0vv9pwl17y45f70ggm9c0'>
+            <column caption='Burden_Pct_List_Price' datatype='real' default-format='p0%' name='[Calculation_0123720185229312]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='1349 / ([Median_Household_Income] / 12)' />
+            </column>
+            <column caption='Burden_Pct_Cash_Price' datatype='real' default-format='p0%' name='[Calculation_0123720185413633]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='550 / ([Median_Household_Income] / 12)' />
+            </column>
+            <column caption='Burden_Gap_Pct' datatype='real' default-format='p0%' name='[Calculation_0123720232554498]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='[Calculation_0123720185229312] - [Calculation_0123720185413633]' />
+            </column>
+            <column caption='Map Highlight' datatype='boolean' name='[Calculation_0849947983020032]' role='dimension' type='nominal'>
+              <calculation class='tableau' formula='[State] = [Parameters].[Parameter 1]' />
+            </column>
+            <column caption='Median Household Income' datatype='real' default-format='c&quot;$&quot;#,##0;(&quot;$&quot;#,##0)' name='[Median_Household_Income]' role='measure' type='quantitative' />
+            <column caption='Medicaid Covers GLP1' datatype='boolean' name='[Medicaid_Covers_GLP1]' role='dimension' type='nominal' />
+            <column datatype='string' name='[State]' role='dimension' semantic-role='[State].[Name]' type='nominal' />
+            <column-instance column='[State]' derivation='Attribute' name='[attr:State:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Calculation_0849947983020032]' derivation='None' name='[none:Calculation_0849947983020032:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Medicaid_Covers_GLP1]' derivation='None' name='[none:Medicaid_Covers_GLP1:nk]' pivot='key' type='nominal' />
+            <column-instance column='[State]' derivation='None' name='[none:State:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Calculation_0123720185229312]' derivation='Sum' name='[sum:Calculation_0123720185229312:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Calculation_0123720185413633]' derivation='Sum' name='[sum:Calculation_0123720185413633:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Calculation_0123720232554498]' derivation='Sum' name='[sum:Calculation_0123720232554498:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Median_Household_Income]' derivation='Sum' name='[sum:Median_Household_Income:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.12vaali0vv9pwl17y45f70ggm9c0].[:Measure Names]'>
+            <groupfilter function='union' user:op='manual'>
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.12vaali0vv9pwl17y45f70ggm9c0].[sum:Calculation_0123720185413633:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.12vaali0vv9pwl17y45f70ggm9c0].[sum:Calculation_0123720185229312:qk]&quot;' />
+            </groupfilter>
+          </filter>
+          <computed-sort column='[federated.12vaali0vv9pwl17y45f70ggm9c0].[none:State:nk]' direction='ASC' using='[federated.12vaali0vv9pwl17y45f70ggm9c0].[sum:Median_Household_Income:qk]' />
+          <slices>
+            <column>[federated.12vaali0vv9pwl17y45f70ggm9c0].[none:State:nk]</column>
+            <column>[federated.12vaali0vv9pwl17y45f70ggm9c0].[:Measure Names]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='axis'>
+            <encoding attr='space' class='1' field='[federated.12vaali0vv9pwl17y45f70ggm9c0].[Multiple Values]' field-type='quantitative' fold='true' scope='cols' synchronized='true' type='space' />
+            <format attr='display' class='0' field='[federated.12vaali0vv9pwl17y45f70ggm9c0].[Multiple Values]' scope='cols' value='true' />
+            <format attr='display' class='1' field='[federated.12vaali0vv9pwl17y45f70ggm9c0].[Multiple Values]' scope='cols' value='false' />
+            <format attr='title' class='0' field='[federated.12vaali0vv9pwl17y45f70ggm9c0].[Multiple Values]' scope='cols' value='Cost Burden (% of Monthly Median Household Income)' />
+            <format attr='tick-color' scope='cols' value='#898989' />
+          </style-rule>
+          <style-rule element='label'>
+            <format attr='text-format' field='[federated.12vaali0vv9pwl17y45f70ggm9c0].[Multiple Values]' value='p0.00%' />
+          </style-rule>
+          <style-rule element='pane'>
+            <format attr='border-width' data-class='total' scope='rows' value='0' />
+            <format attr='border-style' data-class='total' scope='rows' value='none' />
+            <format attr='border-width' data-class='total' scope='cols' value='0' />
+            <format attr='border-style' data-class='total' scope='cols' value='none' />
+          </style-rule>
+          <style-rule element='refline'>
+            <format attr='fill-above' id='refline0' value='#00000000' />
+            <format attr='fill-below' id='refline0' value='#00000000' />
+            <format attr='line-visibility' id='refline0' value='on' />
+            <format attr='line-pattern-only' id='refline0' value='dashed' />
+            <format attr='fill-above' id='refline1' value='#00000000' />
+            <format attr='stroke-size' id='refline1' value='4' />
+            <format attr='line-visibility' id='refline1' value='on' />
+            <format attr='line-pattern-only' id='refline1' value='dashed' />
+            <format attr='text-align' id='refline1' value='left' />
+            <format attr='vertical-align' id='refline1' value='top' />
+            <format attr='fill-below' id='refline1' value='#00000000' />
+            <format attr='stroke-color' id='refline1' value='#aa34344b' />
+          </style-rule>
+          <style-rule element='gridline'>
+            <format attr='stroke-size' scope='cols' value='0' />
+            <format attr='line-visibility' scope='cols' value='off' />
+          </style-rule>
+          <style-rule element='zeroline'>
+            <format attr='stroke-size' scope='cols' value='1' />
+            <format attr='line-visibility' scope='cols' value='on' />
+            <format attr='line-pattern-only' scope='cols' value='solid' />
+          </style-rule>
+          <style-rule element='table-div'>
+            <format attr='stroke-size' scope='rows' value='0' />
+            <format attr='line-visibility' scope='rows' value='off' />
+            <format attr='stroke-size' scope='cols' value='0' />
+            <format attr='line-visibility' scope='cols' value='off' />
+          </style-rule>
+          <style-rule element='annotation'>
+            <format attr='fill-color' id='annotation_2' value='#00000000' />
+            <format attr='fill-color' id='annotation_3' value='#00000000' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Line' />
+            <encodings>
+              <lod column='[federated.12vaali0vv9pwl17y45f70ggm9c0].[:Measure Names]' />
+              <tooltip column='[federated.12vaali0vv9pwl17y45f70ggm9c0].[sum:Calculation_0123720185413633:qk]' />
+              <tooltip column='[federated.12vaali0vv9pwl17y45f70ggm9c0].[sum:Calculation_0123720185229312:qk]' />
+              <tooltip column='[federated.12vaali0vv9pwl17y45f70ggm9c0].[sum:Median_Household_Income:qk]' />
+              <tooltip column='[federated.12vaali0vv9pwl17y45f70ggm9c0].[attr:State:nk]' />
+              <tooltip column='[federated.12vaali0vv9pwl17y45f70ggm9c0].[sum:Calculation_0123720232554498:qk]' />
+            </encodings>
+            <reference-line axis-column='[federated.12vaali0vv9pwl17y45f70ggm9c0].[Multiple Values]' enable-instant-analytics='true' formula='constant' id='refline1' label='Catastrophic Limit (&gt;10% of Total Income)' label-type='custom' scope='per-table' tooltip-type='none' value='0.10000000000000001' value-column='[federated.12vaali0vv9pwl17y45f70ggm9c0].[Multiple Values]' z-order='1' />
+          </pane>
+          <pane id='1' selection-relaxation-option='selection-relaxation-allow' x-axis-name='[federated.12vaali0vv9pwl17y45f70ggm9c0].[Multiple Values]'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Line' />
+            <mark-sizing mark-sizing-setting='marks-scaling-off' />
+            <encodings>
+              <color column='[federated.12vaali0vv9pwl17y45f70ggm9c0].[none:Medicaid_Covers_GLP1:nk]' />
+              <lod column='[federated.12vaali0vv9pwl17y45f70ggm9c0].[:Measure Names]' />
+              <tooltip column='[federated.12vaali0vv9pwl17y45f70ggm9c0].[sum:Calculation_0123720185413633:qk]' />
+              <tooltip column='[federated.12vaali0vv9pwl17y45f70ggm9c0].[sum:Calculation_0123720185229312:qk]' />
+              <tooltip column='[federated.12vaali0vv9pwl17y45f70ggm9c0].[sum:Median_Household_Income:qk]' />
+              <tooltip column='[federated.12vaali0vv9pwl17y45f70ggm9c0].[attr:State:nk]' />
+              <path column='[federated.12vaali0vv9pwl17y45f70ggm9c0].[:Measure Names]' />
+              <tooltip column='[federated.12vaali0vv9pwl17y45f70ggm9c0].[sum:Calculation_0123720232554498:qk]' />
+            </encodings>
+            <customized-tooltip>
+              <formatted-text>
+                <run fontcolor='#555555'>State:&#9;</run>
+                <run bold='true' fontcolor='#555555'><![CDATA[<[federated.12vaali0vv9pwl17y45f70ggm9c0].[none:State:nk]>]]></run>
+                <run>Æ&#10;</run>
+                <run fontcolor='#555555'>Median Household Income:&#9;</run>
+                <run bold='true' fontcolor='#555555'><![CDATA[<[federated.12vaali0vv9pwl17y45f70ggm9c0].[sum:Median_Household_Income:qk]>]]></run>
+                <run>Æ&#10;</run>
+                <run fontcolor='#555555'>List Price ($1,350):&#9;</run>
+                <run bold='true' fontcolor='#555555'><![CDATA[<[federated.12vaali0vv9pwl17y45f70ggm9c0].[sum:Calculation_0123720185229312:qk]>]]></run>
+                <run>Æ&#10;</run>
+                <run fontcolor='#555555'>Cash Price ($550):&#9;</run>
+                <run bold='true' fontcolor='#555555'><![CDATA[<[federated.12vaali0vv9pwl17y45f70ggm9c0].[sum:Calculation_0123720185413633:qk]>]]></run>
+                <run>Æ&#10;</run>
+                <run fontcolor='#555555'>Gap:&#9;</run>
+                <run bold='true' fontcolor='#555555'><![CDATA[<[federated.12vaali0vv9pwl17y45f70ggm9c0].[sum:Calculation_0123720232554498:qk]>]]></run>
+                <run>Æ&#10;</run>
+                <run fontcolor='#000000'>Note: Exceeds WHO definition of catastrophic expenditure (10% of total income or 40% of discretionary income).</run>
+              </formatted-text>
+            </customized-tooltip>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-cull' value='true' />
+                <format attr='mark-labels-show' value='false' />
+                <format attr='size' value='1.3953038454055786' />
+              </style-rule>
+            </style>
+          </pane>
+          <pane id='2' selection-relaxation-option='selection-relaxation-allow' x-axis-name='[federated.12vaali0vv9pwl17y45f70ggm9c0].[Multiple Values]' x-index='1'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Circle' />
+            <mark-sizing mark-sizing-setting='marks-scaling-off' />
+            <encodings>
+              <lod column='[federated.12vaali0vv9pwl17y45f70ggm9c0].[:Measure Names]' />
+              <lod column='[federated.12vaali0vv9pwl17y45f70ggm9c0].[none:Calculation_0849947983020032:nk]' />
+              <tooltip column='[federated.12vaali0vv9pwl17y45f70ggm9c0].[sum:Calculation_0123720185413633:qk]' />
+              <tooltip column='[federated.12vaali0vv9pwl17y45f70ggm9c0].[sum:Calculation_0123720185229312:qk]' />
+              <tooltip column='[federated.12vaali0vv9pwl17y45f70ggm9c0].[sum:Median_Household_Income:qk]' />
+              <tooltip column='[federated.12vaali0vv9pwl17y45f70ggm9c0].[attr:State:nk]' />
+              <tooltip column='[federated.12vaali0vv9pwl17y45f70ggm9c0].[Multiple Values]' />
+              <tooltip column='[federated.12vaali0vv9pwl17y45f70ggm9c0].[sum:Calculation_0123720232554498:qk]' />
+            </encodings>
+            <customized-tooltip>
+              <formatted-text>
+                <run fontcolor='#555555'>State:&#9;</run>
+                <run bold='true' fontcolor='#555555'><![CDATA[<[federated.12vaali0vv9pwl17y45f70ggm9c0].[none:State:nk]>]]></run>
+                <run>Æ&#10;</run>
+                <run fontcolor='#555555'>Median Household Income:&#9;</run>
+                <run bold='true' fontcolor='#555555'><![CDATA[<[federated.12vaali0vv9pwl17y45f70ggm9c0].[sum:Median_Household_Income:qk]>]]></run>
+                <run>Æ&#10;</run>
+                <run fontcolor='#555555'>List Price ($1,350):&#9;</run>
+                <run bold='true' fontcolor='#555555'><![CDATA[<[federated.12vaali0vv9pwl17y45f70ggm9c0].[sum:Calculation_0123720185229312:qk]>]]></run>
+                <run>Æ&#10;</run>
+                <run fontcolor='#555555'>Cash Price ($550):&#9;</run>
+                <run bold='true' fontcolor='#555555'><![CDATA[<[federated.12vaali0vv9pwl17y45f70ggm9c0].[sum:Calculation_0123720185413633:qk]>]]></run>
+                <run>Æ&#10;</run>
+                <run fontcolor='#555555'>Gap:&#9;</run>
+                <run bold='true' fontcolor='#555555'><![CDATA[<[federated.12vaali0vv9pwl17y45f70ggm9c0].[sum:Calculation_0123720232554498:qk]>]]></run>
+                <run>Æ&#10;</run>
+                <run fontcolor='#000000'>Note: Exceeds WHO definition of catastrophic expenditure (10% of total income or 40% of discretionary income).</run>
+                <run>Æ&#10;&#10;</run>
+              </formatted-text>
+            </customized-tooltip>
+            <style>
+              <style-rule element='mark'>
+                <format attr='size' value='1.2853591442108154' />
+                <format attr='mark-color' value='#333333' />
+                <format attr='has-stroke' value='true' />
+                <format attr='stroke-color' value='#000000' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.12vaali0vv9pwl17y45f70ggm9c0].[none:State:nk]</rows>
+        <cols>([federated.12vaali0vv9pwl17y45f70ggm9c0].[Multiple Values] + [federated.12vaali0vv9pwl17y45f70ggm9c0].[Multiple Values])</cols>
+        <annotations>
+          <annotation class='point' id='2' mark-position='1' pullback='12' text-width='180'>
+            <formatted-text>
+              <run bold='true' fontcolor='#666666'>Cash Price</run>
+              <run>Æ&#10;</run>
+              <run bold='true' fontcolor='#666666' fontsize='8'>($550)</run>
+            </formatted-text>
+            <point>
+              <visual-coordinate class='mark'>
+                <tuple-reference>
+                  <tuple-descriptor>
+                    <pane-descriptor x-index='1'>
+                      <x-fields x-index='1'>
+                        <field>[federated.12vaali0vv9pwl17y45f70ggm9c0].[Multiple Values]</field>
+                      </x-fields>
+                      <y-fields x-index='1'>
+                        <field>[federated.12vaali0vv9pwl17y45f70ggm9c0].[none:State:nk]</field>
+                      </y-fields>
+                    </pane-descriptor>
+                    <columns>
+                      <field>[federated.12vaali0vv9pwl17y45f70ggm9c0].[none:Calculation_0849947983020032:nk]</field>
+                      <field>[federated.12vaali0vv9pwl17y45f70ggm9c0].[none:State:nk]</field>
+                      <field>[federated.12vaali0vv9pwl17y45f70ggm9c0].[sum:Calculation_0123720185229312:qk]</field>
+                      <field>[federated.12vaali0vv9pwl17y45f70ggm9c0].[sum:Calculation_0123720185413633:qk]</field>
+                      <field>[federated.12vaali0vv9pwl17y45f70ggm9c0].[sum:Calculation_0123720232554498:qk]</field>
+                      <field>[federated.12vaali0vv9pwl17y45f70ggm9c0].[sum:Median_Household_Income:qk]</field>
+                      <field>[federated.12vaali0vv9pwl17y45f70ggm9c0].[attr:State:nk]</field>
+                      <field>[federated.12vaali0vv9pwl17y45f70ggm9c0].[:Measure Names]</field>
+                      <field>[federated.12vaali0vv9pwl17y45f70ggm9c0].[Multiple Values]</field>
+                    </columns>
+                  </tuple-descriptor>
+                  <tuple>
+                    <value>false</value>
+                    <value>&quot;Mississippi&quot;</value>
+                    <value>0.27378355066213406</value>
+                    <value>0.11162413110761581</value>
+                    <value>0.16215941955451824</value>
+                    <value>59127.0</value>
+                    <value>&quot;Mississippi&quot;</value>
+                    <value>&quot;[federated.12vaali0vv9pwl17y45f70ggm9c0].[sum:Calculation_0123720185413633:qk]&quot;</value>
+                    <value>0.11162413110761581</value>
+                  </tuple>
+                </tuple-reference>
+              </visual-coordinate>
+            </point>
+            <body x='-174' y='114' />
+          </annotation>
+          <annotation class='point' id='3' mark-position='1' pullback='12' text-width='123'>
+            <formatted-text>
+              <run bold='true' fontcolor='#666666'>List Price</run>
+              <run>Æ&#10;</run>
+              <run bold='true' fontcolor='#666666' fontsize='8'>($1350)</run>
+            </formatted-text>
+            <point>
+              <visual-coordinate class='mark'>
+                <tuple-reference>
+                  <tuple-descriptor>
+                    <pane-descriptor x-index='1'>
+                      <x-fields x-index='1'>
+                        <field>[federated.12vaali0vv9pwl17y45f70ggm9c0].[Multiple Values]</field>
+                      </x-fields>
+                      <y-fields x-index='1'>
+                        <field>[federated.12vaali0vv9pwl17y45f70ggm9c0].[none:State:nk]</field>
+                      </y-fields>
+                    </pane-descriptor>
+                    <columns>
+                      <field>[federated.12vaali0vv9pwl17y45f70ggm9c0].[none:Calculation_0849947983020032:nk]</field>
+                      <field>[federated.12vaali0vv9pwl17y45f70ggm9c0].[none:State:nk]</field>
+                      <field>[federated.12vaali0vv9pwl17y45f70ggm9c0].[sum:Calculation_0123720185229312:qk]</field>
+                      <field>[federated.12vaali0vv9pwl17y45f70ggm9c0].[sum:Calculation_0123720185413633:qk]</field>
+                      <field>[federated.12vaali0vv9pwl17y45f70ggm9c0].[sum:Calculation_0123720232554498:qk]</field>
+                      <field>[federated.12vaali0vv9pwl17y45f70ggm9c0].[sum:Median_Household_Income:qk]</field>
+                      <field>[federated.12vaali0vv9pwl17y45f70ggm9c0].[attr:State:nk]</field>
+                      <field>[federated.12vaali0vv9pwl17y45f70ggm9c0].[:Measure Names]</field>
+                      <field>[federated.12vaali0vv9pwl17y45f70ggm9c0].[Multiple Values]</field>
+                    </columns>
+                  </tuple-descriptor>
+                  <tuple>
+                    <value>false</value>
+                    <value>&quot;Mississippi&quot;</value>
+                    <value>0.27378355066213406</value>
+                    <value>0.11162413110761581</value>
+                    <value>0.16215941955451824</value>
+                    <value>59127.0</value>
+                    <value>&quot;Mississippi&quot;</value>
+                    <value>&quot;[federated.12vaali0vv9pwl17y45f70ggm9c0].[sum:Calculation_0123720185229312:qk]&quot;</value>
+                    <value>0.27378355066213406</value>
+                  </tuple>
+                </tuple-reference>
+              </visual-coordinate>
+            </point>
+            <body x='-17' y='143' />
+          </annotation>
+        </annotations>
+      </table>
+      <simple-id uuid='{7C72E0DD-A521-4CA4-A475-8FA79E7FDCE7}' />
+    </worksheet>
+    <worksheet name='03_Education_Heatmap'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run fontcolor='#000000' fontname='Benton Sans Book'>Act 3: The Education Trap (Prevalence by Demographic)</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='GLP1_State_Master' name='federated.12vaali0vv9pwl17y45f70ggm9c0' />
+          </datasources>
+          <datasource-dependencies datasource='federated.12vaali0vv9pwl17y45f70ggm9c0'>
+            <column datatype='string' name='[Category]' role='dimension' type='nominal' />
+            <column datatype='string' name='[Group]' role='dimension' type='nominal' />
+            <column caption='Obesity Rate' datatype='real' default-format='*0&quot;%&quot;' name='[Obesity_Rate]' role='measure' type='quantitative' />
+            <column caption='State_Link' datatype='string' name='[State (GLP1_Demographics.csv)]' role='dimension' semantic-role='[State].[Name]' type='nominal' />
+            <column datatype='string' name='[State]' role='dimension' semantic-role='[State].[Name]' type='nominal' />
+            <column-instance column='[Obesity_Rate]' derivation='Avg' name='[avg:Obesity_Rate:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Category]' derivation='None' name='[none:Category:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Group]' derivation='None' name='[none:Group:nk]' pivot='key' type='nominal' />
+            <column-instance column='[State (GLP1_Demographics.csv)]' derivation='None' name='[none:State (GLP1_Demographics.csv):nk]' pivot='key' type='nominal' />
+            <column-instance column='[State]' derivation='None' name='[none:State:nk]' pivot='key' type='nominal' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.12vaali0vv9pwl17y45f70ggm9c0].[none:Category:nk]'>
+            <groupfilter function='member' level='[none:Category:nk]' member='&quot;Education&quot;' user:ui-domain='database' user:ui-enumeration='inclusive' user:ui-marker='enumerate' />
+          </filter>
+          <manual-sort column='[federated.12vaali0vv9pwl17y45f70ggm9c0].[none:Group:nk]' direction='ASC'>
+            <dictionary>
+              <bucket>&quot;Less than H.S.&quot;</bucket>
+              <bucket>&quot;H.S. or G.E.D.&quot;</bucket>
+              <bucket>&quot;Some post-H.S.&quot;</bucket>
+              <bucket>&quot;College graduate&quot;</bucket>
+              <bucket>&quot;$15,000-$24,999&quot;</bucket>
+              <bucket>&quot;$25,000-$34,999&quot;</bucket>
+              <bucket>&quot;$35,000-$49,999&quot;</bucket>
+              <bucket>&quot;$50,000-$99,999&quot;</bucket>
+              <bucket>&quot;$100,000-$199,999&quot;</bucket>
+              <bucket>&quot;$200,000+&quot;</bucket>
+              <bucket>&quot;Less than $15,000&quot;</bucket>
+            </dictionary>
+          </manual-sort>
+          <slices>
+            <column>[federated.12vaali0vv9pwl17y45f70ggm9c0].[none:State:nk]</column>
+            <column>[federated.12vaali0vv9pwl17y45f70ggm9c0].[none:Category:nk]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='cell'>
+            <format attr='width' field='[federated.12vaali0vv9pwl17y45f70ggm9c0].[none:Group:nk]' value='110' />
+          </style-rule>
+          <style-rule element='header'>
+            <format attr='width' field='[federated.12vaali0vv9pwl17y45f70ggm9c0].[none:State (GLP1_Demographics.csv):nk]' value='136' />
+          </style-rule>
+          <style-rule element='label'>
+            <format attr='text-format' field='[federated.12vaali0vv9pwl17y45f70ggm9c0].[avg:Obesity_Rate:qk]' value='' />
+          </style-rule>
+          <style-rule element='mark'>
+            <encoding attr='color' field='[federated.12vaali0vv9pwl17y45f70ggm9c0].[avg:Obesity_Rate:qk]' palette='red_gold_10_0' type='interpolated' />
+          </style-rule>
+          <style-rule element='worksheet'>
+            <format attr='display-field-labels' scope='cols' value='false' />
+            <format attr='display-field-labels' scope='rows' value='false' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Square' />
+            <encodings>
+              <color column='[federated.12vaali0vv9pwl17y45f70ggm9c0].[avg:Obesity_Rate:qk]' />
+              <lod column='[federated.12vaali0vv9pwl17y45f70ggm9c0].[avg:Obesity_Rate:qk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+              </style-rule>
+              <style-rule element='pane'>
+                <format attr='minwidth' value='-1' />
+                <format attr='maxwidth' value='-1' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.12vaali0vv9pwl17y45f70ggm9c0].[none:State (GLP1_Demographics.csv):nk]</rows>
+        <cols>[federated.12vaali0vv9pwl17y45f70ggm9c0].[none:Group:nk]</cols>
+      </table>
+      <simple-id uuid='{8C511B77-A9EF-4849-AA45-B5200426195C}' />
+    </worksheet>
+  </worksheets>
+  <dashboards>
+    <dashboard enable-sort-zone-taborder='true' name='GLP-1 Equity Analysis'>
+      <style>
+        <style-rule element='table'>
+          <format attr='background-color' value='#f2f1ed' />
+        </style-rule>
+      </style>
+      <size maxheight='2000' maxwidth='1000' minheight='2000' minwidth='1000' sizing-mode='fixed' />
+      <zones>
+        <zone h='100000' id='4' type-v2='layout-basic' w='100000' x='0' y='0'>
+          <zone h='99200' id='24' param='horz' type-v2='layout-flow' w='98400' x='800' y='400'>
+            <zone h='99200' id='19' param='horz' type-v2='layout-flow' w='98400' x='800' y='400'>
+              <zone h='99200' id='17' type-v2='layout-basic' w='98400' x='800' y='400'>
+                <zone h='94951' id='12' param='horz' type-v2='layout-flow' w='98400' x='800' y='4649'>
+                  <zone h='94951' id='3' param='vert' type-v2='layout-flow' w='98400' x='800' y='4649'>
+                    <zone fixed-size='592' h='30125' id='5' is-fixed='true' name='01_Map_Prevalence' w='98400' x='800' y='4649'>
+                      <layout-cache minheight='242' minwidth='202' type-h='scalable' type-w='scalable' />
+                      <zone-style>
+                        <format attr='border-color' value='#000000' />
+                        <format attr='border-style' value='none' />
+                        <format attr='border-width' value='0' />
+                        <format attr='margin' value='10' />
+                        <format attr='background-color' value='#ffffff' />
+                      </zone-style>
+                    </zone>
+                    <zone fixed-size='67' forceUpdate='true' h='3750' id='15' is-fixed='true' type-v2='text' w='98400' x='800' y='34774'>
+                      <formatted-text>
+                        <run fontcolor='#000000' fontsize='12'>While the crisis is concentrated in the South and Midwest (Map above), affordability is the barrier. The chart below compares the cost of treatment against Median Household Income. </run>
+                        <run bold='true' fontcolor='#000000' fontsize='12'>Note the &apos;Wedge&apos; shape:</run>
+                        <run fontcolor='#000000' fontsize='12'> The states with the highest need (top) face a cost burden that exceeds federal definitions of catastrophic medical expenditure.</run>
+                      </formatted-text>
+                      <zone-style>
+                        <format attr='border-color' value='#000000' />
+                        <format attr='border-style' value='none' />
+                        <format attr='border-width' value='0' />
+                        <format attr='margin' value='4' />
+                      </zone-style>
+                    </zone>
+                    <zone fixed-size='639' h='30125' id='9' is-fixed='true' name='02_Affordability_Dumbbell' w='98400' x='800' y='38524'>
+                      <layout-cache minwidth='220' type-h='fixed' type-w='scalable' />
+                      <zone-style>
+                        <format attr='border-color' value='#000000' />
+                        <format attr='border-style' value='none' />
+                        <format attr='border-width' value='0' />
+                        <format attr='margin' value='10' />
+                        <format attr='background-color' value='#ffffff' />
+                      </zone-style>
+                    </zone>
+                    <zone fixed-size='67' forceUpdate='true' h='3750' id='16' is-fixed='true' type-v2='text' w='98400' x='800' y='68649'>
+                      <formatted-text>
+                        <run fontcolor='#000000' fontsize='12'>Is this random? No. The data below shows a structural correlation. Obesity rates climb as education levels decrease. This creates a systemic trap where the populations most likely to need the drug are statistically the least likely to possess the economic resources to afford it.</run>
+                      </formatted-text>
+                      <zone-style>
+                        <format attr='border-color' value='#000000' />
+                        <format attr='border-style' value='none' />
+                        <format attr='border-width' value='0' />
+                        <format attr='margin' value='4' />
+                      </zone-style>
+                    </zone>
+                    <zone fixed-size='492' h='25600' id='10' is-fixed='true' name='03_Education_Heatmap' w='98400' x='800' y='72399'>
+                      <layout-cache type-h='fixed' type-w='cell' />
+                      <zone-style>
+                        <format attr='border-color' value='#000000' />
+                        <format attr='border-style' value='none' />
+                        <format attr='border-width' value='0' />
+                        <format attr='margin' value='10' />
+                        <format attr='background-color' value='#ffffff' />
+                      </zone-style>
+                    </zone>
+                    <zone forceUpdate='true' h='1601' id='26' type-v2='text' w='98400' x='800' y='97999'>
+                      <formatted-text>
+                        <run bold='true' fontcolor='#000000' fontsize='8'>Data:</run>
+                        <run fontcolor='#000000' fontsize='8'> CDC BRFSS (Obesity Prevalence), Wegovy Website (GLP-1 Pricing), U.S. Census Bureau (Income Data). </run>
+                        <run bold='true' fontcolor='#000000' fontsize='8'>Analysis:</run>
+                        <run fontcolor='#000000' fontsize='8'> Jason Donner | </run>
+                        <run bold='true' fontcolor='#000000' fontsize='8'>Portfolio:</run>
+                        <run fontcolor='#000000' fontsize='8'>Æ </run>
+                        <run auto-url='true' fontcolor='#000000' fontsize='8' hyperlink='tabdoc:load-url url=&amp;quot;https://jason-donner.github.io/&amp;quot;'>https://jason-donner.github.io/</run>
+                      </formatted-text>
+                      <zone-style>
+                        <format attr='border-color' value='#000000' />
+                        <format attr='border-style' value='none' />
+                        <format attr='border-width' value='0' />
+                        <format attr='margin' value='4' />
+                      </zone-style>
+                    </zone>
+                  </zone>
+                </zone>
+                <zone forceUpdate='true' h='4249' id='14' type-v2='text' w='98400' x='800' y='400'>
+                  <formatted-text>
+                    <run bold='true' fontalignment='1' fontcolor='#000000' fontname='Tableau Regular' fontsize='24'>The GLP-1 Divide: Geography, Economics, and the Equity Gap</run>
+                    <run fontalignment='1' fontcolor='#000000' fontname='Benton Sans Book' fontsize='24'>Æ </run>
+                    <run fontalignment='1'>Æ&#10;</run>
+                    <run fontalignment='1' fontname='Tableau Regular' fontsize='12' italic='true'>An analysis of how system pricing creates a barrier for the populations with the highest need.</run>
+                  </formatted-text>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                  </zone-style>
+                </zone>
+              </zone>
+            </zone>
+          </zone>
+          <zone-style>
+            <format attr='border-color' value='#000000' />
+            <format attr='border-style' value='none' />
+            <format attr='border-width' value='0' />
+            <format attr='margin' value='8' />
+            <format attr='background-color' value='#f5f5f5' />
+          </zone-style>
+        </zone>
+        <zone h='3800' id='20' name='01_Map_Prevalence' pane-specification-id='0' param='[federated.12vaali0vv9pwl17y45f70ggm9c0].[sum:Obesity_Pct:qk]' type-v2='color' w='14000' x='2700' y='28800'>
+          <zone-style>
+            <format attr='border-color' value='#000000' />
+            <format attr='border-style' value='none' />
+            <format attr='border-width' value='0' />
+            <format attr='background-color' value='#f5f5f5c4' />
+          </zone-style>
+        </zone>
+        <zone forceUpdate='true' h='4450' id='25' type-v2='text' w='13400' x='82300' y='59750'>
+          <formatted-text>
+            <run bold='true' fontname='Tableau Regular'>Blue bars represent states where GLP-1s are covered by Medicaid for obesity.</run>
+          </formatted-text>
+          <zone-style>
+            <format attr='border-color' value='#000000' />
+            <format attr='border-style' value='none' />
+            <format attr='border-width' value='0' />
+            <format attr='background-color' value='#f5f5f5' />
+          </zone-style>
+        </zone>
+      </zones>
+      <devicelayouts>
+        <devicelayout auto-generated='true' name='Phone'>
+          <size maxheight='1300' minheight='1300' sizing-mode='vscroll' />
+          <zones>
+            <zone h='100000' id='30' type-v2='layout-basic' w='100000' x='0' y='0'>
+              <zone h='99200' id='29' param='vert' type-v2='layout-flow' w='98400' x='800' y='400'>
+                <zone forceUpdate='true' h='4249' id='14' type-v2='text' w='98400' x='800' y='400'>
+                  <formatted-text>
+                    <run bold='true' fontalignment='1' fontcolor='#000000' fontname='Tableau Regular' fontsize='24'>The GLP-1 Divide: Geography, Economics, and the Equity Gap</run>
+                    <run fontalignment='1' fontcolor='#000000' fontname='Benton Sans Book' fontsize='24'>Æ </run>
+                    <run fontalignment='1'>Æ&#10;</run>
+                    <run fontalignment='1' fontname='Tableau Regular' fontsize='12' italic='true'>An analysis of how system pricing creates a barrier for the populations with the highest need.</run>
+                  </formatted-text>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='280' h='30125' id='5' is-fixed='true' name='01_Map_Prevalence' w='98400' x='800' y='4649'>
+                  <layout-cache minheight='242' minwidth='202' type-h='scalable' type-w='scalable' />
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                    <format attr='background-color' value='#ffffff' />
+                  </zone-style>
+                </zone>
+                <zone h='3800' id='20' name='01_Map_Prevalence' pane-specification-id='0' param='[federated.12vaali0vv9pwl17y45f70ggm9c0].[sum:Obesity_Pct:qk]' type-v2='color' w='14000' x='2700' y='28800'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                    <format attr='background-color' value='#f5f5f5c4' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='67' forceUpdate='true' h='3750' id='15' type-v2='text' w='98400' x='800' y='34774'>
+                  <formatted-text>
+                    <run fontcolor='#000000' fontsize='12'>While the crisis is concentrated in the South and Midwest (Map above), affordability is the barrier. The chart below compares the cost of treatment against Median Household Income. </run>
+                    <run bold='true' fontcolor='#000000' fontsize='12'>Note the &apos;Wedge&apos; shape:</run>
+                    <run fontcolor='#000000' fontsize='12'> The states with the highest need (top) face a cost burden that exceeds federal definitions of catastrophic medical expenditure.</run>
+                  </formatted-text>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='280' h='30125' id='9' is-fixed='true' name='02_Affordability_Dumbbell' w='98400' x='800' y='38524'>
+                  <layout-cache minwidth='220' type-h='fixed' type-w='scalable' />
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                    <format attr='background-color' value='#ffffff' />
+                  </zone-style>
+                </zone>
+                <zone forceUpdate='true' h='4450' id='25' type-v2='text' w='13400' x='82300' y='59750'>
+                  <formatted-text>
+                    <run bold='true' fontname='Tableau Regular'>Blue bars represent states where GLP-1s are covered by Medicaid for obesity.</run>
+                  </formatted-text>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                    <format attr='background-color' value='#f5f5f5' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='67' forceUpdate='true' h='3750' id='16' type-v2='text' w='98400' x='800' y='68649'>
+                  <formatted-text>
+                    <run fontcolor='#000000' fontsize='12'>Is this random? No. The data below shows a structural correlation. Obesity rates climb as education levels decrease. This creates a systemic trap where the populations most likely to need the drug are statistically the least likely to possess the economic resources to afford it.</run>
+                  </formatted-text>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='280' h='25600' id='10' is-fixed='true' name='03_Education_Heatmap' w='98400' x='800' y='72399'>
+                  <layout-cache type-h='fixed' type-w='cell' />
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                    <format attr='background-color' value='#ffffff' />
+                  </zone-style>
+                </zone>
+                <zone forceUpdate='true' h='1601' id='26' type-v2='text' w='98400' x='800' y='97999'>
+                  <formatted-text>
+                    <run bold='true' fontcolor='#000000' fontsize='8'>Data:</run>
+                    <run fontcolor='#000000' fontsize='8'> CDC BRFSS (Obesity Prevalence), Wegovy Website (GLP-1 Pricing), U.S. Census Bureau (Income Data). </run>
+                    <run bold='true' fontcolor='#000000' fontsize='8'>Analysis:</run>
+                    <run fontcolor='#000000' fontsize='8'> Jason Donner | </run>
+                    <run bold='true' fontcolor='#000000' fontsize='8'>Portfolio:</run>
+                    <run fontcolor='#000000' fontsize='8'>Æ </run>
+                    <run auto-url='true' fontcolor='#000000' fontsize='8' hyperlink='tabdoc:load-url url=&amp;quot;https://jason-donner.github.io/&amp;quot;'>https://jason-donner.github.io/</run>
+                  </formatted-text>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+              </zone>
+              <zone-style>
+                <format attr='border-color' value='#000000' />
+                <format attr='border-style' value='none' />
+                <format attr='border-width' value='0' />
+                <format attr='margin' value='8' />
+                <format attr='background-color' value='#f5f5f5' />
+              </zone-style>
+            </zone>
+          </zones>
+        </devicelayout>
+      </devicelayouts>
+      <simple-id uuid='{6CADEE31-47A0-49C9-9C65-08AB71435CB0}' />
+    </dashboard>
+  </dashboards>
+  <windows source-height='30'>
+    <window class='worksheet' name='01_Map_Prevalence'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='0' param='[federated.12vaali0vv9pwl17y45f70ggm9c0].[sum:Obesity_Pct:qk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <default-map-tool-selection tool='1' />
+      </viewpoint>
+      <simple-id uuid='{20A70753-AC3E-49C4-A496-99C25CBCDEC8}' />
+    </window>
+    <window class='worksheet' name='02_Affordability_Dumbbell'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+            <card type='measures' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='1' param='[federated.12vaali0vv9pwl17y45f70ggm9c0].[none:Medicaid_Covers_GLP1:nk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <zoom type='fit-width' />
+      </viewpoint>
+      <simple-id uuid='{46D22161-2122-4C86-B4F3-8DE97BEB21AD}' />
+    </window>
+    <window class='worksheet' name='03_Education_Heatmap'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='0' param='[federated.12vaali0vv9pwl17y45f70ggm9c0].[avg:Obesity_Rate:qk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <zoom type='fit-width' />
+        <default-map-tool-selection tool='2' />
+      </viewpoint>
+      <simple-id uuid='{78D529D4-FA68-4F9F-85A1-B8E10145AF6C}' />
+    </window>
+    <window class='dashboard' maximized='true' name='GLP-1 Equity Analysis'>
+      <viewpoints>
+        <viewpoint name='01_Map_Prevalence'>
+          <zoom type='entire-view' />
+        </viewpoint>
+        <viewpoint name='02_Affordability_Dumbbell' />
+        <viewpoint name='03_Education_Heatmap'>
+          <zoom type='fit-width' />
+        </viewpoint>
+      </viewpoints>
+      <active id='-1' />
+      <simple-id uuid='{423EE84C-528A-4347-8386-56E376F82A97}' />
+    </window>
+  </windows>
+</workbook>

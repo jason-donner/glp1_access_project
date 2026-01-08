@@ -1,0 +1,98 @@
+category,metric,value,unit,source,year,notes
+# OBESITY PREVALENCE
+prevalence,national_adult_obesity_rate,41.4,percent,CDC NHANES,2023,Self-reported BMI >= 30
+prevalence,states_over_40_pct,3,count,CDC BRFSS,2024,"AR, MS, WV"
+prevalence,midwest_regional_rate,36.0,percent,CDC BRFSS,2024,
+prevalence,south_regional_rate,34.7,percent,CDC BRFSS,2024,
+prevalence,west_regional_rate,29.1,percent,CDC BRFSS,2024,
+prevalence,northeast_regional_rate,28.6,percent,CDC BRFSS,2024,
+prevalence,age_40_59_rate,46.4,percent,CDC BRFSS,2024,Highest age group
+prevalence,severe_obesity_class_III,9.2,percent,CDC NHANES,2023,BMI >= 40
+
+# DRUG PRICING - U.S.
+pricing,wegovy_list_monthly,1349,usd,Novo Nordisk,2025,Weight loss indication
+pricing,ozempic_list_monthly,969,usd,Novo Nordisk,2025,Diabetes indication
+pricing,zepbound_list_monthly,1059,usd,Eli Lilly,2025,Weight loss indication
+pricing,mounjaro_list_monthly,1023,usd,Eli Lilly,2025,Diabetes indication
+pricing,wegovy_cash_costco,499,usd,Costco,2025,Cash pay program
+pricing,zepbound_cash_lilly,550,usd,LillyDirect,2025,Cash pay program
+pricing,wegovy_annual_list,16188,usd,Calculated,2025,$1349 x 12
+
+# DRUG PRICING - INTERNATIONAL (Wegovy monthly)
+pricing_intl,wegovy_germany,328,usd,Peterson-KFF,2024,
+pricing_intl,wegovy_netherlands,296,usd,Peterson-KFF,2024,
+pricing_intl,wegovy_uk,300,usd,Peterson-KFF,2024,Estimated
+pricing_intl,wegovy_denmark,190,usd,Peterson-KFF,2024,Country of origin
+pricing_intl,us_vs_germany_ratio,4.1,multiple,Calculated,2024,$1349 / $328
+
+# COVERAGE - MEDICARE
+coverage,medicare_weight_loss_banned,1,boolean,CMS,2025,SSA 1927(d)(2) exclusion
+coverage,medicare_cvd_eligible_millions,3.6,millions,KFF,2024,Post-March 2024 approval
+coverage,prior_auth_rate_2023q3,15,percent,CMS Formulary,2023,
+coverage,prior_auth_rate_2024q3,83,percent,CMS Formulary,2024,Sharp increase
+coverage,balance_medicaid_start,2026.417,date,CMS,2025,May 2026
+coverage,balance_medicare_start,2027.0,date,CMS,2025,January 2027
+coverage,temp_medicare_price,50,usd,CMS,2025,July 2026 program
+
+# COVERAGE - MEDICAID
+coverage,states_covering_obesity_drugs,13,count,KFF,2024,For weight loss indication
+coverage,states_covering_diabetes,50,count,KFF,2024,All states cover for diabetes
+
+# COVERAGE - EMPLOYER
+coverage,employer_200plus_coverage,19,percent,KFF Employer Survey,2025,
+coverage,employer_5000plus_coverage,43,percent,KFF Employer Survey,2025,Up from 28% in 2024
+coverage,eligible_population_millions,36.2,millions,KFF,2025,ESI with qualifying BMI
+
+# DISPARITIES
+disparity,black_prescription_gap,-19,percent,KFF/JAMA,2024,vs White patients
+disparity,latino_prescription_gap,-9,percent,KFF/JAMA,2024,vs White patients
+
+# DIRECT HEALTHCARE COSTS
+cost_direct,annual_medical_total_billions,173,usd_billions,CDC,2024,Conservative estimate
+cost_direct,annual_medical_causal_billions,260.6,usd_billions,Cawley 2021,2016,IV method
+cost_direct,pct_healthcare_spending,14.3,percent,Milken Institute,2024,
+cost_direct,excess_cost_class_I,1800,usd,Cawley 2021,2021,Per person per year
+cost_direct,excess_cost_class_II,2500,usd,Cawley 2021,2021,Per person per year
+cost_direct,excess_cost_class_III_low,3097,usd,Multiple,2021,Per person per year
+cost_direct,excess_cost_class_III_high,6312,usd,Multiple,2021,Per person per year
+cost_direct,public_insurance_excess,2868,usd,Studies,2021,Medicare/Medicaid per person
+cost_direct,private_insurance_excess,2058,usd,Studies,2021,Commercial per person
+
+# PRODUCTIVITY COSTS
+cost_productivity,presenteeism_obesity_billions,113.8,usd_billions,Nature 2024,2024,
+cost_productivity,presenteeism_overweight_billions,46.5,usd_billions,Nature 2024,2024,
+cost_productivity,absenteeism_obesity_billions,82.3,usd_billions,Nature 2024,2024,
+cost_productivity,disability_payments_billions,31.1,usd_billions,Nature 2024,2024,
+cost_productivity,workers_comp_billions,5.2,usd_billions,Nature 2024,2024,
+cost_productivity,total_indirect_billions,278.9,usd_billions,Calculated,2024,
+cost_productivity,days_lost_per_employee,3,days,JOEM 2021,2021,vs normal weight
+cost_productivity,days_lost_pct_increase,128,percent,JOEM 2021,2021,
+cost_productivity,per_employee_total_excess,6472,usd,Nature 2024,2024,All cost categories
+
+# TOTAL ECONOMIC BURDEN
+cost_total,annual_burden_trillions,1.4,usd_trillions,Milken/JEC,2024,
+cost_total,gdp_percentage,6.6,percent,JEC 2023,2024,
+cost_total,per_capita_all_americans,4242,usd,Calculated,2024,$1.4T / 330M
+cost_total,projected_2030_trillions,1.9,usd_trillions,Trust for America,2025,
+cost_total,govt_spending_2024_2050_trillions,4.1,usd_trillions,JEC 2023,2024,Cumulative
+
+# MORTALITY
+mortality,excess_deaths_daily,1300,count,eClinicalMedicine,2022,
+mortality,excess_deaths_annual,474500,count,Calculated,2022,1300 x 365
+mortality,life_expectancy_loss_years,2.4,years,eClinicalMedicine,2022,Population-wide
+mortality,yll_severe_obesity_male_20,13,years,Fontaine,2008,BMI > 45 white male
+mortality,covid_life_expectancy_loss,1.31,years,CDC,2020,For comparison
+
+# TREATMENT VALUE / ROI
+value,savings_25pct_weight_loss,2849,usd,JAMA Network Open,2024,Per person per year
+value,savings_15pct_hypertension,1112,usd,JAMA Network Open,2024,
+value,savings_25pct_arthritis,4950,usd,JAMA Network Open,2024,
+value,value_based_price_medicare,8225,usd,USC Schaeffer,2025,Midpoint of range
+value,value_based_price_younger,14484,usd,USC Schaeffer,2025,Midpoint of range
+value,medicare_savings_10yr_billions,245,usd_billions,USC Schaeffer,2025,Potential
+
+# CLINICAL EFFICACY
+efficacy,glp1_weight_loss_pct_low,15,percent,Clinical trials,2024,
+efficacy,glp1_weight_loss_pct_high,25,percent,Clinical trials,2024,Tirzepatide
+efficacy,lifestyle_weight_loss_pct,5,percent,DPP studies,2024,Typical sustained
+efficacy,bariatric_surgery_pct,30,percent,Clinical data,2024,Typical range

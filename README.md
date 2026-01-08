@@ -25,7 +25,7 @@ The analysis reveals a systemic paradox: The states with the highest obesity rat
 
 ---
 
-## 🛠 Methodology
+##  Methodology
 
 ### 1. Data Sourcing
 * **Health:** CDC BRFSS (Behavioral Risk Factor Surveillance System) – Obesity prevalence by state and demographic group.
@@ -81,5 +81,5 @@ The analysis reveals a systemic paradox: The states with the highest obesity rat
 
 ##  Next Steps
 * **Factor in Temporary Programs:** The current administration has proposed a plan that will lower the prices of Ozempic and Wegovy to $350 per month when purchased through *TrumpRX*. Whether this plan is realistic remains to be seen.
-* **Insurance Layer:** Add a layer for "Commercial Insurance Coverage" to compare public vs. private access. Data on private insurance plans is highly obsufucated. 
+* **Insurance Layer:** Add a layer for "Commercial Insurance Coverage" to compare public vs. private access. Data on private insurance plans is not readily available.  
 * **Demographic Analysis:** Expand the analysis to examine which groups of Americans are impacted most by the current pricing model. Groups could include race, sex, and age. 
